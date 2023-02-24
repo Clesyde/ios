@@ -1,0 +1,34 @@
+name: Push Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'The tag to give the image'
+        required: true
+        type: string
+
+concurrency:
+  group: '${{ github.workflow }}'
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Deploy image
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v2.0.0
+        with:
+          registry: ghcr.io
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and push
+        uses: docker/build-push-action@v3
+        with:
+          context: ./Sources/PushServer
+          push: true
+          tags: "ghcr.io/${{ github.repository_owner }}/ios-pushserver:${{ github.event.inputs.tag }}"
