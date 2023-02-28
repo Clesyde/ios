@@ -1,0 +1,45 @@
+# Updating this file to have new inputs or outputs?
+# Make sure to re-run: `fastlane update_swiftgen_config`
+# or it won't be executed when it changes in Xcode
+
+strings:
+  inputs:
+    - Sources/App/Resources/en.lproj/Localizable.strings
+  outputs:
+    - templateName: structured-swift5
+      output: Sources/Shared/Resources/SwiftGen/Strings.swift
+      params:
+        publicAccess: true
+        lookupFunction: Current.localized.string
+ib:
+  inputs:
+    - Sources/App/ClientEvents/ClientEvents.storyboard
+  outputs:
+    - templateName: scenes-swift5
+      output: Sources/App/Resources/Scenes.swift
+      params:
+        module: HomeAssistant
+    - templateName: segues-swift5
+      output: Sources/App/Resources/Segues.swift
+xcassets:
+  inputs: Sources/App/Resources/Assets.xcassets
+  outputs:
+    templateName: swift5
+    output: Sources/App/Resources/Assets.swift
+plist:
+  inputs:
+    - Sources/Shared/Resources/Info.plist
+  outputs:
+    - templateName: runtime-swift5
+      output: Sources/Shared/Resources/SwiftGen/SharedPlist.swift
+      params:
+        enumName: SharedPlistFiles
+        forceFileNameEnum: true
+json:
+  inputs:
+    - Tools/MaterialDesignIcons.json
+  outputs:
+    templatePath: Tools/icons.stencil
+    output: Sources/Shared/Iconic/MaterialDesignIcons.swift
+    params:
+      publicAccess: true
