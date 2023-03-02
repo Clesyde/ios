@@ -15,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "11B92908266F145000786588"
-               BuildableName = "HomeAssistant-Extensions-PushProvider.appex"
-               BlueprintName = "Extensions-PushProvider"
-               ReferencedContainer = "container:HomeAssistant.xcodeproj">
+               BlueprintIdentifier = "B6AAD7A01D827DD40090B220"
+               BuildableName = "Clesyde-Extensions-NotificationService.appex"
+               BlueprintName = "Extensions-NotificationService"
+               ReferencedContainer = "container:Clesyde.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -32,7 +32,7 @@
                BlueprintIdentifier = "B657A8E51CA646EB00121384"
                BuildableName = "Home Assistant.app"
                BlueprintName = "App"
-               ReferencedContainer = "container:HomeAssistant.xcodeproj">
+               ReferencedContainer = "container:Clesyde.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,7 +42,24 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES">
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B657A8E51CA646EB00121384"
+            BuildableName = "Home Assistant.app"
+            BlueprintName = "App"
+            ReferencedContainer = "container:Clesyde.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D03D891620E0A85200D4F28D"
+            BuildableName = "Shared.framework"
+            BlueprintName = "Shared-iOS"
+            ReferencedContainer = "container:Clesyde.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
       </Testables>
    </TestAction>
@@ -58,20 +75,16 @@
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "2">
-      <RemoteRunnable
-         runnableDebuggingMode = "0"
-         BundleIdentifier = "io.robbie.HomeAssistant.dev"
-         RemotePath = "/var/containers/Bundle/Application/98CE04EB-7B3D-4A90-B46E-8522E87FB5E6/Home Assistant &#x394;.app">
-      </RemoteRunnable>
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B657A8E51CA646EB00121384"
             BuildableName = "Home Assistant.app"
             BlueprintName = "App"
-            ReferencedContainer = "container:HomeAssistant.xcodeproj">
+            ReferencedContainer = "container:Clesyde.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -88,7 +101,7 @@
             BlueprintIdentifier = "B657A8E51CA646EB00121384"
             BuildableName = "Home Assistant.app"
             BlueprintName = "App"
-            ReferencedContainer = "container:HomeAssistant.xcodeproj">
+            ReferencedContainer = "container:Clesyde.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

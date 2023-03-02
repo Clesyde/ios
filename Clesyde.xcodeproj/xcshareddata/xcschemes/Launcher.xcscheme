@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "111711E425B29ACB003C149E"
-               BuildableName = "Codegen"
-               BlueprintName = "Codegen"
-               ReferencedContainer = "container:HomeAssistant.xcodeproj">
+               BlueprintIdentifier = "11DE9D8225B6103C0081C0ED"
+               BuildableName = "Home Assistant Launcher.app"
+               BlueprintName = "Launcher"
+               ReferencedContainer = "container:Clesyde.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,6 +40,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "11DE9D8225B6103C0081C0ED"
+            BuildableName = "Home Assistant Launcher.app"
+            BlueprintName = "Launcher"
+            ReferencedContainer = "container:Clesyde.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -47,15 +57,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "111711E425B29ACB003C149E"
-            BuildableName = "Codegen"
-            BlueprintName = "Codegen"
-            ReferencedContainer = "container:HomeAssistant.xcodeproj">
+            BlueprintIdentifier = "11DE9D8225B6103C0081C0ED"
+            BuildableName = "Home Assistant Launcher.app"
+            BlueprintName = "Launcher"
+            ReferencedContainer = "container:Clesyde.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

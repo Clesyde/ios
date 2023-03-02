@@ -15,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1171506824DFCDE60065E874"
-               BuildableName = "HomeAssistant-Extensions-Widgets.appex"
-               BlueprintName = "Extensions-Widgets"
-               ReferencedContainer = "container:HomeAssistant.xcodeproj">
+               BlueprintIdentifier = "B66F9F21216B1E61000CAA0F"
+               BuildableName = "Clesyde-Extensions-Today.appex"
+               BlueprintName = "Extensions-Today"
+               ReferencedContainer = "container:Clesyde.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -32,7 +32,7 @@
                BlueprintIdentifier = "B657A8E51CA646EB00121384"
                BuildableName = "Home Assistant.app"
                BlueprintName = "App"
-               ReferencedContainer = "container:HomeAssistant.xcodeproj">
+               ReferencedContainer = "container:Clesyde.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -50,14 +50,14 @@
             BlueprintIdentifier = "B657A8E51CA646EB00121384"
             BuildableName = "Home Assistant.app"
             BlueprintName = "App"
-            ReferencedContainer = "container:HomeAssistant.xcodeproj">
+            ReferencedContainer = "container:Clesyde.xcodeproj">
          </BuildableReference>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D03D891620E0A85200D4F28D"
             BuildableName = "Shared.framework"
             BlueprintName = "Shared-iOS"
-            ReferencedContainer = "container:HomeAssistant.xcodeproj">
+            ReferencedContainer = "container:Clesyde.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
       <Testables>
@@ -80,38 +80,12 @@
          BundleIdentifier = "com.apple.springboard">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1171506824DFCDE60065E874"
-            BuildableName = "HomeAssistant-Extensions-Widgets.appex"
-            BlueprintName = "Extensions-Widgets"
-            ReferencedContainer = "container:HomeAssistant.xcodeproj">
+            BlueprintIdentifier = "B66F9F21216B1E61000CAA0F"
+            BuildableName = "Clesyde-Extensions-Today.appex"
+            BlueprintName = "Extensions-Today"
+            ReferencedContainer = "container:Clesyde.xcodeproj">
          </BuildableReference>
       </RemoteRunnable>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B657A8E51CA646EB00121384"
-            BuildableName = "Home Assistant.app"
-            BlueprintName = "App"
-            ReferencedContainer = "container:HomeAssistant.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "_XCWidgetKind"
-            value = ""
-            isEnabled = "NO">
-         </EnvironmentVariable>
-         <EnvironmentVariable
-            key = "_XCWidgetDefaultView"
-            value = "timeline"
-            isEnabled = "NO">
-         </EnvironmentVariable>
-         <EnvironmentVariable
-            key = "_XCWidgetFamily"
-            value = "medium"
-            isEnabled = "NO">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -128,7 +102,7 @@
             BlueprintIdentifier = "B657A8E51CA646EB00121384"
             BuildableName = "Home Assistant.app"
             BlueprintName = "App"
-            ReferencedContainer = "container:HomeAssistant.xcodeproj">
+            ReferencedContainer = "container:Clesyde.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

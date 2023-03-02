@@ -17,7 +17,7 @@
                BlueprintIdentifier = "D03D891620E0A85200D4F28D"
                BuildableName = "Shared.framework"
                BlueprintName = "Shared-iOS"
-               ReferencedContainer = "container:HomeAssistant.xcodeproj">
+               ReferencedContainer = "container:Clesyde.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D03D894120E0BC1800D4F28D"
-               BuildableName = "HomeAssistant-Tests-Shared.xctest"
+               BuildableName = "Clesyde-Tests-Shared.xctest"
                BlueprintName = "Tests-Shared"
-               ReferencedContainer = "container:HomeAssistant.xcodeproj">
+               ReferencedContainer = "container:Clesyde.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -49,7 +49,7 @@
             BlueprintIdentifier = "D03D891620E0A85200D4F28D"
             BuildableName = "Shared.framework"
             BlueprintName = "Shared-iOS"
-            ReferencedContainer = "container:HomeAssistant.xcodeproj">
+            ReferencedContainer = "container:Clesyde.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
       <Testables>
@@ -58,9 +58,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D03D894120E0BC1800D4F28D"
-               BuildableName = "HomeAssistant-Tests-Shared.xctest"
+               BuildableName = "Clesyde-Tests-Shared.xctest"
                BlueprintName = "Tests-Shared"
-               ReferencedContainer = "container:HomeAssistant.xcodeproj">
+               ReferencedContainer = "container:Clesyde.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -88,7 +88,7 @@
             BlueprintIdentifier = "D03D891620E0A85200D4F28D"
             BuildableName = "Shared.framework"
             BlueprintName = "Shared-iOS"
-            ReferencedContainer = "container:HomeAssistant.xcodeproj">
+            ReferencedContainer = "container:Clesyde.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1155DD05250F4100003405C0"
-               BuildableName = "HomeAssistant-Extensions-Share.appex"
+               BuildableName = "Clesyde-Extensions-Share.appex"
                BlueprintName = "Extensions-Share"
-               ReferencedContainer = "container:HomeAssistant.xcodeproj">
+               ReferencedContainer = "container:Clesyde.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -32,7 +32,7 @@
                BlueprintIdentifier = "B657A8E51CA646EB00121384"
                BuildableName = "Home Assistant.app"
                BlueprintName = "App"
-               ReferencedContainer = "container:HomeAssistant.xcodeproj">
+               ReferencedContainer = "container:Clesyde.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -50,14 +50,14 @@
             BlueprintIdentifier = "B657A8E51CA646EB00121384"
             BuildableName = "Home Assistant.app"
             BlueprintName = "App"
-            ReferencedContainer = "container:HomeAssistant.xcodeproj">
+            ReferencedContainer = "container:Clesyde.xcodeproj">
          </BuildableReference>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D03D891620E0A85200D4F28D"
             BuildableName = "Shared.framework"
             BlueprintName = "Shared-iOS"
-            ReferencedContainer = "container:HomeAssistant.xcodeproj">
+            ReferencedContainer = "container:Clesyde.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
       <Testables>
@@ -82,7 +82,7 @@
             BlueprintIdentifier = "B657A8E51CA646EB00121384"
             BuildableName = "Home Assistant.app"
             BlueprintName = "App"
-            ReferencedContainer = "container:HomeAssistant.xcodeproj">
+            ReferencedContainer = "container:Clesyde.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -101,7 +101,7 @@
             BlueprintIdentifier = "B657A8E51CA646EB00121384"
             BuildableName = "Home Assistant.app"
             BlueprintName = "App"
-            ReferencedContainer = "container:HomeAssistant.xcodeproj">
+            ReferencedContainer = "container:Clesyde.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

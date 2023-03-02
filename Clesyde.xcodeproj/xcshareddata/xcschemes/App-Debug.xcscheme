@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "1330"
-   version = "1.3">
+   version = "1.8">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -17,13 +17,13 @@
                BlueprintIdentifier = "B657A8E51CA646EB00121384"
                BuildableName = "Home Assistant.app"
                BlueprintName = "App"
-               ReferencedContainer = "container:HomeAssistant.xcodeproj">
+               ReferencedContainer = "container:Clesyde.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Beta"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
@@ -35,27 +35,48 @@
             BlueprintIdentifier = "D03D891620E0A85200D4F28D"
             BuildableName = "Shared.framework"
             BlueprintName = "Shared-iOS"
-            ReferencedContainer = "container:HomeAssistant.xcodeproj">
+            ReferencedContainer = "container:Clesyde.xcodeproj">
          </BuildableReference>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B657A8E51CA646EB00121384"
             BuildableName = "Home Assistant.app"
             BlueprintName = "App"
-            ReferencedContainer = "container:HomeAssistant.xcodeproj">
+            ReferencedContainer = "container:Clesyde.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B657A8FB1CA646EB00121384"
+               BuildableName = "Clesyde-Tests-App.xctest"
+               BlueprintName = "Tests-App"
+               ReferencedContainer = "container:Clesyde.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D03D894120E0BC1800D4F28D"
+               BuildableName = "Clesyde-Tests-Shared.xctest"
+               BlueprintName = "Tests-Shared"
+               ReferencedContainer = "container:Clesyde.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Beta"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      migratedStopOnEveryIssue = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
@@ -65,19 +86,33 @@
             BlueprintIdentifier = "B657A8E51CA646EB00121384"
             BuildableName = "Home Assistant.app"
             BlueprintName = "App"
-            ReferencedContainer = "container:HomeAssistant.xcodeproj">
+            ReferencedContainer = "container:Clesyde.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "-FIRDebugEnabled"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-FIRDebugDisabled"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-FIRAnalyticsDebugEnabled"
+            isEnabled = "NO">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "OS_ACTIVITY_MODE"
             value = "disable"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </EnvironmentVariable>
       </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Beta"
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -89,15 +124,15 @@
             BlueprintIdentifier = "B657A8E51CA646EB00121384"
             BuildableName = "Home Assistant.app"
             BlueprintName = "App"
-            ReferencedContainer = "container:HomeAssistant.xcodeproj">
+            ReferencedContainer = "container:Clesyde.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Beta">
+      buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Beta"
+      buildConfiguration = "Release"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

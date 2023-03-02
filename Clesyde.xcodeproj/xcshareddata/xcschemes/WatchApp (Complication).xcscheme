@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1330"
-   wasCreatedForAppExtension = "YES"
+   LastUpgradeVersion = "1300"
    version = "2.0">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,24 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B66C58A4215086F0004AB261"
-               BuildableName = "HomeAssistant-Extensions-Intents.appex"
-               BlueprintName = "Extensions-Intents"
-               ReferencedContainer = "container:HomeAssistant.xcodeproj">
+               BlueprintIdentifier = "B6CC5D812159D10D00833E5D"
+               BuildableName = "Clesyde-WatchApp.app"
+               BlueprintName = "WatchApp"
+               ReferencedContainer = "container:Clesyde.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B657A8E51CA646EB00121384"
                BuildableName = "Home Assistant.app"
                BlueprintName = "App"
-               ReferencedContainer = "container:HomeAssistant.xcodeproj">
+               ReferencedContainer = "container:Clesyde.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -50,14 +49,14 @@
             BlueprintIdentifier = "D03D891620E0A85200D4F28D"
             BuildableName = "Shared.framework"
             BlueprintName = "Shared-iOS"
-            ReferencedContainer = "container:HomeAssistant.xcodeproj">
+            ReferencedContainer = "container:Clesyde.xcodeproj">
          </BuildableReference>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B657A8E51CA646EB00121384"
             BuildableName = "Home Assistant.app"
             BlueprintName = "App"
-            ReferencedContainer = "container:HomeAssistant.xcodeproj">
+            ReferencedContainer = "container:Clesyde.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
       <Testables>
@@ -65,30 +64,26 @@
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
-      selectedDebuggerIdentifier = ""
-      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
-      askForAppToLaunch = "Yes"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
-      launchAutomaticallySubstyle = "2">
-      <RemoteRunnable
-         runnableDebuggingMode = "1"
-         BundleIdentifier = "com.apple.shortcuts"
-         RemotePath = "/Applications/Xcode-12.2b2.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Applications/Shortcuts.app">
-      </RemoteRunnable>
-      <MacroExpansion>
+      launchAutomaticallySubstyle = "32"
+      notificationPayloadFile = "Sources/Extensions/NotificationContent/Resources/TestNotifications/map_notification.apns">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B657A8E51CA646EB00121384"
-            BuildableName = "Home Assistant.app"
-            BlueprintName = "App"
-            ReferencedContainer = "container:HomeAssistant.xcodeproj">
+            BlueprintIdentifier = "B6CC5D812159D10D00833E5D"
+            BuildableName = "Clesyde-WatchApp.app"
+            BlueprintName = "WatchApp"
+            ReferencedContainer = "container:Clesyde.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -96,16 +91,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES"
-      askForAppToLaunch = "Yes"
-      launchAutomaticallySubstyle = "2">
+      launchAutomaticallySubstyle = "32">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B657A8E51CA646EB00121384"
-            BuildableName = "Home Assistant.app"
-            BlueprintName = "App"
-            ReferencedContainer = "container:HomeAssistant.xcodeproj">
+            BlueprintIdentifier = "B6CC5D812159D10D00833E5D"
+            BuildableName = "Clesyde-WatchApp.app"
+            BlueprintName = "WatchApp"
+            ReferencedContainer = "container:Clesyde.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

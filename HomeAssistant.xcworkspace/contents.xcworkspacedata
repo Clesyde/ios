@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:HomeAssistant.xcodeproj">
+      location = "group:/Users/fdewasmes/Documents/clesyde/clesyde-iOS/Clesyde.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
