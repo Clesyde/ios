@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B657A8E51CA646EB00121384"
-               BuildableName = "Home Assistant.app"
+               BuildableName = "Clesyde.app"
                BlueprintName = "App"
                ReferencedContainer = "container:Clesyde.xcodeproj">
             </BuildableReference>
@@ -47,7 +47,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B657A8E51CA646EB00121384"
-            BuildableName = "Home Assistant.app"
+            BuildableName = "Clesyde.app"
             BlueprintName = "App"
             ReferencedContainer = "container:Clesyde.xcodeproj">
          </BuildableReference>

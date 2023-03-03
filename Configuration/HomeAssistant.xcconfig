@@ -54,7 +54,7 @@ COPY_PHASE_STRIP = NO
 SKIP_INSTALL = YES
 
 // makes the executable more HA-specific so it is in crash logs sorted nicely
-PRODUCT_NAME = HomeAssistant-$(TARGET_NAME)
+PRODUCT_NAME = Clesyde-$(TARGET_NAME)
 PRODUCT_MODULE_NAME = $(TARGET_NAME:c99extidentifier)
 
 // watchOS-specific, to keep us under the 75 MB size limit

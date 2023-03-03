@@ -6,14 +6,14 @@
 	<string>development</string>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>applinks:home-assistant.io</string>
-		<string>applinks:*.home-assistant.io</string>
+		<string>applinks:clesyde.lu</string>
+		<string>applinks:*.clesyde.lu</string>
 	</array>
 	<key>com.apple.security.app-sandbox</key>
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.$(BUNDLE_ID_PREFIX).clesyde$(BUNDLE_ID_SUFFIX)</string>
+		<string>group.$(BUNDLE_ID_PREFIX)$(BUNDLE_ID_SUFFIX)</string>
 	</array>
 	<key>com.apple.security.network.client</key>
 	<true/>

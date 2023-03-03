@@ -648,6 +648,7 @@
 		<string>WidgetActionsIntent</string>
 		<string>WidgetOpenPageIntent</string>
 		<string>AssistIntent</string>
+		<string>INSendMessageIntent</string>
 	</array>
 	<key>UIApplicationShortcutItems</key>
 	<array>

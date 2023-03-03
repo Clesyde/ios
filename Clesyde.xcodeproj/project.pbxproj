@@ -368,7 +368,6 @@
 		11B7FD752493225200E60ED9 /* BackgroundTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B7FD732493225200E60ED9 /* BackgroundTask.swift */; };
 		11B7FD772493232400E60ED9 /* BackgroundTask.test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B7FD762493232400E60ED9 /* BackgroundTask.test.swift */; };
 		11B9290B266F145000786588 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B9290A266F145000786588 /* NetworkExtension.framework */; };
-		11B92913266F145000786588 /* Clesyde-Extensions-PushProvider.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 11B92909266F145000786588 /* Clesyde-Extensions-PushProvider.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		11B9297E266F15B500786588 /* PushProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B9296B266F15A800786588 /* PushProvider.swift */; };
 		11B92A5B266F17AA00786588 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03D891720E0A85200D4F28D /* Shared.framework */; };
 		11B92AF2266F23DA00786588 /* NotificationManagerLocalPushInterfaceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B92A7F266F23CD00786588 /* NotificationManagerLocalPushInterfaceExtension.swift */; };
@@ -512,6 +511,7 @@
 		539AA1653F4BCDB61FE7C696 /* Pods_iOS_Shared_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213EF66D14F92AF8BF2E9E98 /* Pods_iOS_Shared_iOS.framework */; };
 		5B715903CB3450FE351399BC /* Pods-iOS-Extensions-Share-metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 207E35C8F1554A9AD616FFA2 /* Pods-iOS-Extensions-Share-metadata.plist */; };
 		5FFBC80F835393915C4748CF /* Pods_iOS_Extensions_PushProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A370326321B07E5ACE0BCB65 /* Pods_iOS_Extensions_PushProvider.framework */; };
+		6B69A80829B1F32B00C0B47D /* Scenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B69A80729B1F32B00C0B47D /* Scenes.swift */; };
 		78BE7D5D003D9F8C7486DD69 /* Pods_iOS_Shared_iOS_Tests_Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4DFB087A3A43F9A526B851 /* Pods_iOS_Shared_iOS_Tests_Shared.framework */; };
 		81A0C1BBDEFF4F8C5FC314BE /* Pods_iOS_Extensions_NotificationContent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F356D0219C7F8A24234511B /* Pods_iOS_Extensions_NotificationContent.framework */; };
 		83206D4876AF7F77D76DCCB7 /* Pods-iOS-Extensions-Today-metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = D72C761F65606EF882E2A7B1 /* Pods-iOS-Extensions-Today-metadata.plist */; };
@@ -675,7 +675,6 @@
 		B641BC231E209CA9002CCBC1 /* HomeAssistantLogoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B641BC221E209CA9002CCBC1 /* HomeAssistantLogoView.xib */; };
 		B641BC251E20A17B002CCBC1 /* OpenInChromeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B641BC241E20A17B002CCBC1 /* OpenInChromeController.swift */; };
 		B648AE252275918F006972AF /* Segues.swift in Sources */ = {isa = PBXBuildFile; fileRef = B648AE232275918E006972AF /* Segues.swift */; };
-		B648AE262275918F006972AF /* Scenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B648AE242275918E006972AF /* Scenes.swift */; };
 		B64BB3A81E9C6551001E8B46 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64BB3A71E9C6551001E8B46 /* WebViewController.swift */; };
 		B64E754123F3BFF200472C04 /* cornflower-blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B64E751923F3BFE700472C04 /* cornflower-blue@2x.png */; };
 		B64E754223F3BFF200472C04 /* old-dev@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B64E751A23F3BFE700472C04 /* old-dev@2x.png */; };
@@ -1128,7 +1127,6 @@
 			files = (
 				1155DD10250F4101003405C0 /* Clesyde-Extensions-Share.appex in Embed App Extensions */,
 				B6AAD7A81D827DD40090B220 /* Clesyde-Extensions-NotificationService.appex in Embed App Extensions */,
-				11B92913266F145000786588 /* Clesyde-Extensions-PushProvider.appex in Embed App Extensions */,
 				B627CB151D83C87B0057173E /* Clesyde-Extensions-NotificationContent.appex in Embed App Extensions */,
 				1171507624DFCDEE0065E874 /* Clesyde-Extensions-Widgets.appex in Embed App Extensions */,
 				11B6B5822948F8E100B8B552 /* Clesyde-Extensions-Matter.appex in Embed App Extensions */,
@@ -1566,6 +1564,7 @@
 		6723A4E97E50C3C9141428D0 /* Pods-iOS-Extensions-Widgets-metadata.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Pods-iOS-Extensions-Widgets-metadata.plist"; path = "Pods/Pods-iOS-Extensions-Widgets-metadata.plist"; sourceTree = "<group>"; };
 		675CE4281FE5F1920B13D553 /* Pods-iOS-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-App/Pods-iOS-App.debug.xcconfig"; sourceTree = "<group>"; };
 		6B55CB9064A0477C9F456B6A /* Pods-watchOS-Shared-watchOS-metadata.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Pods-watchOS-Shared-watchOS-metadata.plist"; path = "Pods/Pods-watchOS-Shared-watchOS-metadata.plist"; sourceTree = "<group>"; };
+		6B69A80729B1F32B00C0B47D /* Scenes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scenes.swift; sourceTree = "<group>"; };
 		6BE4F5D629B0A38400FC65D8 /* HomeAssistant.overrides.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = HomeAssistant.overrides.xcconfig; sourceTree = "<group>"; };
 		6CB9BB87D256D071215B4FF4 /* Pods-iOS-Extensions-PushProvider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Extensions-PushProvider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Extensions-PushProvider/Pods-iOS-Extensions-PushProvider.debug.xcconfig"; sourceTree = "<group>"; };
 		6F1D92E4B7A5CD1007EB0782 /* Pods_watchOS_Shared_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_watchOS_Shared_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1780,7 +1779,6 @@
 		B646B05224D10A5400093E6A /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B646B05324D10A5400093E6A /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B648AE232275918E006972AF /* Segues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Segues.swift; sourceTree = "<group>"; };
-		B648AE242275918E006972AF /* Scenes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scenes.swift; sourceTree = "<group>"; };
 		B64BB3A71E9C6551001E8B46 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		B64C5B2924DCB5390038AB3D /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Intents.strings; sourceTree = "<group>"; };
 		B64C5B2B24DCB5390038AB3D /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -1842,7 +1840,7 @@
 		B655E923227FF19C00CFDC94 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Intents.strings; sourceTree = "<group>"; };
 		B655E925227FF19D00CFDC94 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Intents.strings; sourceTree = "<group>"; };
 		B655E927227FF19E00CFDC94 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Intents.strings; sourceTree = "<group>"; };
-		B657A8E61CA646EB00121384 /* Home Assistant Δ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home Assistant Δ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B657A8E61CA646EB00121384 /* Clesyde Δ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clesyde Δ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B657A8E91CA646EB00121384 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B657A8F21CA646EB00121384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B657A8F51CA646EB00121384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -3194,7 +3192,7 @@
 		B657A8E71CA646EB00121384 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B657A8E61CA646EB00121384 /* Home Assistant Δ.app */,
+				B657A8E61CA646EB00121384 /* Clesyde Δ.app */,
 				B657A8FC1CA646EB00121384 /* Clesyde-Tests-App.xctest */,
 				B657A9071CA646EB00121384 /* Clesyde-Tests-UI.xctest */,
 				B6AAD7A11D827DD40090B220 /* Clesyde-Extensions-NotificationService.appex */,
@@ -3419,6 +3417,7 @@
 		B69933961E232AF50054453D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6B69A80729B1F32B00C0B47D /* Scenes.swift */,
 				B672AB022215057600175465 /* Alternate Icons */,
 				B65B15042273188300635D5C /* Assets.swift */,
 				B657A8F21CA646EB00121384 /* Assets.xcassets */,
@@ -3434,7 +3433,6 @@
 				B661FC74226C792000E541DD /* Lottie Files */,
 				1158D6272511DA67008C0C9F /* ManualPodLicenses.plist */,
 				B657A8F41CA646EB00121384 /* LaunchScreen.storyboard */,
-				B648AE242275918E006972AF /* Scenes.swift */,
 				B648AE232275918E006972AF /* Segues.swift */,
 				B60614B31D1F116D00249C11 /* Sounds */,
 				B661FB67226B961400E541DD /* WebSocketBridge.js */,
@@ -3967,7 +3965,7 @@
 			);
 			name = App;
 			productName = HomeAssistant;
-			productReference = B657A8E61CA646EB00121384 /* Home Assistant Δ.app */;
+			productReference = B657A8E61CA646EB00121384 /* Clesyde Δ.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B657A8FB1CA646EB00121384 /* Tests-App */ = {
@@ -4196,7 +4194,6 @@
 					};
 					1171506824DFCDE60065E874 = {
 						CreatedOnToolsVersion = 12.0;
-						DevelopmentTeam = QMQYCKL255;
 					};
 					11B6B57A2948F8E100B8B552 = {
 						CreatedOnToolsVersion = 14.1;
@@ -4209,9 +4206,7 @@
 					};
 					B627CB061D83C87B0057173E = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = QMQYCKL255;
 						LastSwiftMigration = 1020;
-						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.AccessWiFi = {
 								enabled = 1;
@@ -4227,7 +4222,6 @@
 					B657A8E51CA646EB00121384 = {
 						CreatedOnToolsVersion = 7.3;
 						LastSwiftMigration = 1020;
-						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.AccessWiFi = {
 								enabled = 1;
@@ -4272,9 +4266,7 @@
 					};
 					B66C58A4215086F0004AB261 = {
 						CreatedOnToolsVersion = 10.0;
-						DevelopmentTeam = QMQYCKL255;
 						LastSwiftMigration = 1020;
-						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.AccessWiFi = {
 								enabled = 1;
@@ -4289,9 +4281,7 @@
 					};
 					B66F9F21216B1E61000CAA0F = {
 						CreatedOnToolsVersion = 10.0;
-						DevelopmentTeam = QMQYCKL255;
 						LastSwiftMigration = 1020;
-						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.AccessWiFi = {
 								enabled = 1;
@@ -4312,9 +4302,7 @@
 					};
 					B6AAD7A01D827DD40090B220 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = QMQYCKL255;
 						LastSwiftMigration = 1020;
-						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.AccessWiFi = {
 								enabled = 1;
@@ -4353,9 +4341,7 @@
 					};
 					D03D891620E0A85200D4F28D = {
 						CreatedOnToolsVersion = 9.4.1;
-						DevelopmentTeam = QMQYCKL255;
 						LastSwiftMigration = 1020;
-						ProvisioningStyle = Automatic;
 					};
 					D03D894120E0BC1800D4F28D = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -5369,7 +5355,6 @@
 			files = (
 				115F9D7025F4B7B700CC6A45 /* TemplateSection.swift in Sources */,
 				1101568524D770B2009424C9 /* NFCReader.swift in Sources */,
-				B648AE262275918F006972AF /* Scenes.swift in Sources */,
 				1185DF9A271FE60F00ED7D9A /* OnboardingAuthStep.swift in Sources */,
 				11F55EBC25D3A2A3003977AC /* NotificationCategoryListViewController.swift in Sources */,
 				1100D51F2496F63400B1073C /* ThemeColors.swift in Sources */,
@@ -5464,6 +5449,7 @@
 				B605C891226E9DAC00EF46DD /* Permissions.swift in Sources */,
 				1169B7AD25AA76E30035F2AE /* MaterialDesignIcons+Eureka.swift in Sources */,
 				11F55ECD25D3A364003977AC /* NotificationRateLimitViewController.swift in Sources */,
+				6B69A80829B1F32B00C0B47D /* Scenes.swift in Sources */,
 				117EBC32261D398B00F5334A /* ZoneManagerAccuracyFuzzer.swift in Sources */,
 				B65B15052273188300635D5C /* Assets.swift in Sources */,
 				113FB1132515A065000AC680 /* ScaleFactorMutator.swift in Sources */,
@@ -6342,6 +6328,11 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Configuration/Entitlements/Extension-ios.entitlements";
 				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Configuration/Entitlements/Extension-catalyst.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 74KNV958TY;
 				INFOPLIST_FILE = Sources/Extensions/Share/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -6349,6 +6340,8 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_NAME = "Clesyde-Extensions-Share";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "iOS App Store - Extensions-Share";
 				PROVISIONING_SUFFIX = .ShareExtension;
 				SUPPORTS_MACCATALYST = YES;
 			};
@@ -6459,6 +6452,11 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = "Configuration/Entitlements/Extension-ios.entitlements";
 				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Configuration/Entitlements/Extension-catalyst.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 74KNV958TY;
 				INFOPLIST_FILE = Sources/Extensions/Widgets/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -6467,6 +6465,8 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_NAME = "Clesyde-Extensions-Widgets";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "iOS App Store - Extensions-Widgets";
 				PROVISIONING_SUFFIX = .Widgets;
 				SUPPORTS_MACCATALYST = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -6515,9 +6515,15 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Configuration/Entitlements/Extension-ios.entitlements";
 				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Configuration/Entitlements/Extension-catalyst.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 74KNV958TY;
 				INFOPLIST_FILE = Sources/Extensions/Matter/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				PRODUCT_NAME = "Clesyde-Extensions-Matter";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "iOS App Store - Extensions-Matter";
 				PROVISIONING_SUFFIX = .Matter;
 				SDKROOT = iphoneos;
 			};
@@ -6572,9 +6578,12 @@
 			baseConfigurationReference = F0954F3919DBD03AC16B0391 /* Pods-iOS-Extensions-PushProvider.beta.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Configuration/Entitlements/Extension-ios.entitlements";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Sources/Extensions/PushProvider/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_NAME = "Clesyde-Extensions-PushProvider";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				PROVISIONING_SUFFIX = .PushProvider;
 			};
 			name = Beta;
@@ -6640,6 +6649,11 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Configuration/Entitlements/Extension-ios.entitlements";
 				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Configuration/Entitlements/Extension-catalyst.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 74KNV958TY;
 				INFOPLIST_FILE = Sources/Extensions/NotificationContent/Resources/Info.plist;
 				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -6648,6 +6662,8 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_NAME = "Clesyde-Extensions-NotificationContent";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "iOS App Store - Extensions-NotificationContent";
 				PROVISIONING_SUFFIX = .NotificationContentExtension;
 				SUPPORTS_MACCATALYST = YES;
 			};
@@ -6667,8 +6683,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon${BUNDLE_ID_SUFFIX}";
 				CODE_SIGN_ENTITLEMENTS = "Configuration/Entitlements/App-ios.entitlements";
 				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Configuration/Entitlements/App-catalyst.entitlements";
-				ENV_URL_HANDLER = "homeassistant-beta";
+				ENV_URL_HANDLER = "clesyde-beta";
 				INFOPLIST_FILE = Sources/App/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Clesyde;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -6695,7 +6712,7 @@
 					"$(inherited)",
 				);
 				PRODUCT_MODULE_NAME = HomeAssistant;
-				PRODUCT_NAME = "Home Assistant β";
+				PRODUCT_NAME = "Clesyde β";
 				SKIP_INSTALL = NO;
 				SUPPORTS_MACCATALYST = YES;
 			};
@@ -6855,6 +6872,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "Configuration/Entitlements/Extension-ios.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Distribution";
+				"DEVELOPMENT_TEAM[sdk=watchos*]" = 74KNV958TY;
 				INFOPLIST_FILE = Sources/Extensions/Watch/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -6862,6 +6881,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_NAME = "Clesyde-WatchExtension-Watch";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=watchos*]" = "iOS App Store - WatchExtension-Watch";
 				PROVISIONING_SUFFIX = .watchkitapp.watchkitextension;
 				SDKROOT = watchos;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -6889,8 +6909,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon${BUNDLE_ID_SUFFIX}";
 				CODE_SIGN_ENTITLEMENTS = "Configuration/Entitlements/App-ios.entitlements";
 				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Configuration/Entitlements/App-catalyst.entitlements";
-				ENV_URL_HANDLER = "homeassistant-dev";
+				ENV_URL_HANDLER = "clesyde-dev";
 				INFOPLIST_FILE = Sources/App/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Clesyde;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -6917,7 +6938,7 @@
 					"$(inherited)",
 				);
 				PRODUCT_MODULE_NAME = HomeAssistant;
-				PRODUCT_NAME = "Home Assistant Δ";
+				PRODUCT_NAME = "Clesyde Δ";
 				SKIP_INSTALL = NO;
 				SUPPORTS_MACCATALYST = YES;
 			};
@@ -6930,8 +6951,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon${BUNDLE_ID_SUFFIX}";
 				CODE_SIGN_ENTITLEMENTS = "Configuration/Entitlements/App-ios.entitlements";
 				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Configuration/Entitlements/App-catalyst.entitlements";
-				ENV_URL_HANDLER = homeassistant;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 74KNV958TY;
+				ENV_URL_HANDLER = clesyde;
 				INFOPLIST_FILE = Sources/App/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Clesyde;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -6958,7 +6985,9 @@
 					"$(inherited)",
 				);
 				PRODUCT_MODULE_NAME = HomeAssistant;
-				PRODUCT_NAME = "Home Assistant";
+				PRODUCT_NAME = Clesyde;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "iOS App Store - App";
 				SKIP_INSTALL = NO;
 				SUPPORTS_MACCATALYST = YES;
 			};
@@ -7051,6 +7080,11 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Configuration/Entitlements/Extension-ios.entitlements";
 				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Configuration/Entitlements/Extension-catalyst.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 74KNV958TY;
 				INFOPLIST_FILE = Sources/Extensions/Intents/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
@@ -7067,6 +7101,8 @@
 					"\"UIKit\"",
 				);
 				PRODUCT_NAME = "Clesyde-Extensions-Intents";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "iOS App Store - Extensions-Intents";
 				PROVISIONING_SUFFIX = .Intents;
 				SUPPORTS_MACCATALYST = YES;
 			};
@@ -7098,6 +7134,10 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Configuration/Entitlements/Extension-ios.entitlements";
 				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Configuration/Entitlements/Extension-catalyst.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 74KNV958TY;
 				INFOPLIST_FILE = Sources/Extensions/Today/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -7106,6 +7146,8 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_NAME = "Clesyde-Extensions-Today";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "iOS App Store - Extensions-Today";
 				PROVISIONING_SUFFIX = .TodayWidget;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -7234,6 +7276,11 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Configuration/Entitlements/Extension-ios.entitlements";
 				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Configuration/Entitlements/Extension-catalyst.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 74KNV958TY;
 				INFOPLIST_FILE = Sources/Extensions/NotificationService/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -7241,6 +7288,8 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_NAME = "Clesyde-Extensions-NotificationService";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "OS App Store - Extensions-NotificationService";
 				PROVISIONING_SUFFIX = .APNSAttachmentService;
 				SUPPORTS_MACCATALYST = YES;
 			};
@@ -7349,7 +7398,12 @@
 			baseConfigurationReference = C2563441A5A149C269C5F320 /* Pods-iOS-Shared-iOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 74KNV958TY;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 2;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
