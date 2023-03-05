@@ -4180,7 +4180,7 @@
 				DefaultBuildSystemTypeForWorkspace = Original;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1330;
-				ORGANIZATIONNAME = "Home Assistant";
+				ORGANIZATIONNAME = Clesyde;
 				TargetAttributes = {
 					111711E425B29ACB003C149E = {
 						CreatedOnToolsVersion = 12.3;
@@ -6283,7 +6283,7 @@
 		111711E525B29ACB003C149E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_MODULE_NAME = HomeAssistant;
+				PRODUCT_MODULE_NAME = Clesyde;
 				PRODUCT_NAME = Clesyde;
 			};
 			name = Debug;
@@ -6291,7 +6291,7 @@
 		111711E625B29ACB003C149E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_MODULE_NAME = HomeAssistant;
+				PRODUCT_MODULE_NAME = Clesyde;
 				PRODUCT_NAME = Clesyde;
 			};
 			name = Release;
@@ -6299,7 +6299,7 @@
 		111711E725B29ACB003C149E /* Beta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_MODULE_NAME = HomeAssistant;
+				PRODUCT_MODULE_NAME = Clesyde;
 				PRODUCT_NAME = Clesyde;
 			};
 			name = Beta;
@@ -6711,7 +6711,7 @@
 					"\"UIKit\"",
 					"$(inherited)",
 				);
-				PRODUCT_MODULE_NAME = HomeAssistant;
+				PRODUCT_MODULE_NAME = Clesyde;
 				PRODUCT_NAME = "Clesyde β";
 				SKIP_INSTALL = NO;
 				SUPPORTS_MACCATALYST = YES;
@@ -6741,7 +6741,7 @@
 				);
 				PRODUCT_NAME = "Clesyde-Tests-UI";
 				PROVISIONING_SUFFIX = .HomeAssistantUITests;
-				TEST_TARGET_NAME = HomeAssistant;
+				TEST_TARGET_NAME = Clesyde;
 			};
 			name = Beta;
 		};
@@ -6937,7 +6937,7 @@
 					"\"UIKit\"",
 					"$(inherited)",
 				);
-				PRODUCT_MODULE_NAME = HomeAssistant;
+				PRODUCT_MODULE_NAME = Clesyde;
 				PRODUCT_NAME = "Clesyde Δ";
 				SKIP_INSTALL = NO;
 				SUPPORTS_MACCATALYST = YES;
@@ -6984,7 +6984,7 @@
 					"\"UIKit\"",
 					"$(inherited)",
 				);
-				PRODUCT_MODULE_NAME = HomeAssistant;
+				PRODUCT_MODULE_NAME = Clesyde;
 				PRODUCT_NAME = Clesyde;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "iOS App Store - App";
@@ -7028,7 +7028,7 @@
 				);
 				PRODUCT_NAME = "Clesyde-Tests-UI";
 				PROVISIONING_SUFFIX = .HomeAssistantUITests;
-				TEST_TARGET_NAME = HomeAssistant;
+				TEST_TARGET_NAME = Clesyde;
 			};
 			name = Debug;
 		};
@@ -7043,7 +7043,7 @@
 				);
 				PRODUCT_NAME = "Clesyde-Tests-UI";
 				PROVISIONING_SUFFIX = .HomeAssistantUITests;
-				TEST_TARGET_NAME = HomeAssistant;
+				TEST_TARGET_NAME = Clesyde;
 			};
 			name = Release;
 		};

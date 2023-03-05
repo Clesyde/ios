@@ -15,7 +15,7 @@ internal enum StoryboardScene {
   internal enum ClientEvents: StoryboardType {
     internal static let storyboardName = "ClientEvents"
 
-    internal static let clientEventsList = SceneType<HomeAssistant.ClientEventTableViewController>(storyboard: ClientEvents.self, identifier: "clientEventsList")
+    internal static let clientEventsList = SceneType<Clesyde.ClientEventTableViewController>(storyboard: ClientEvents.self, identifier: "clientEventsList")
   }
 }
 // swiftlint:enable explicit_type_interface identifier_name line_length type_body_length type_name
