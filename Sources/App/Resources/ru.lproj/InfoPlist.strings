@@ -1,13 +1,13 @@
 "NFCReaderUsageDescription" = "Чтение и запись NFC меток позволяет запускать события.";
-"NSCameraUsageDescription" = "Делайте фотографии и отправляйте их на свой сервер Home Assistant.";
+"NSCameraUsageDescription" = "Делайте фотографии и отправляйте их на свой сервер Clesyde.";
 "NSCrossWebsiteTrackingUsageDescription" = "При необходимости включите межсайтовое отслеживание, если этого требует ваша конфигурация.";
 "NSFocusStatusUsageDescription" = "Сообщите о своем статусе фокусирования в качестве датчика.";
-"NSLocalNetworkUsageDescription" = "Найти свой экземпляр Home Assistant и подключиться к нему.";
+"NSLocalNetworkUsageDescription" = "Найти свой экземпляр Clesyde и подключиться к нему.";
 "NSLocationAlwaysAndWhenInUseUsageDescription" = "Рекомендуется «Всегда» для работы всех гео-функций. Если выбрать «При использовании программы», перестанут работать iBeacons, геозоны и фоновая отправка геопозиции.";
 "NSLocationAlwaysUsageDescription" = "Постоянный доступ к геопозиции необходим для таких функций, как iBeacons, геозоны и фоновая отправка геопозиции.";
-"NSLocationUsageDescription" = "Если эта функция включена, местоположение вашего устройства отправляется на сервер Home Assistant в качестве средства отслеживания устройств.";
+"NSLocationUsageDescription" = "Если эта функция включена, местоположение вашего устройства отправляется на сервер Clesyde в качестве средства отслеживания устройств.";
 "NSLocationWhenInUseUsageDescription" = "Если выбрать «При использовании программы», перестанут работать iBeacons, геозоны и фоновая отправка геопозиции.";
-"NSMicrophoneUsageDescription" = "Record audio using your Home Assistant frontend.";
+"NSMicrophoneUsageDescription" = "Record audio using your Clesyde frontend.";
 "NSMotionUsageDescription" = "Отправляют состояние движения телефона вместе с данными геопозиции, и предоставляют данные шагомера";
 "NSPhotoLibraryAddUsageDescription" = "Доступ к фотографиям нужен для сохранения картинок из основного окна программы";
 "NSPhotoLibraryUsageDescription" = "Доступ к фотографиям нужен для сохранения картинок из основного окна программы";

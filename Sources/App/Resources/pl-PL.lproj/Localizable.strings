@@ -8,9 +8,9 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "Zgłoszone błędy na GitHub";
 "about.help_localize.title" = "Pomóż przetłumaczyć aplikację!";
-"about.home_assistant_on_facebook.title" = "Home Assistant na Facebooku";
-"about.home_assistant_on_twitter.title" = "Home Assistant na Twitterze";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "Clesyde na Facebooku";
+"about.home_assistant_on_twitter.title" = "Clesyde na Twitterze";
+"about.logo.app_title" = "Clesyde App";
 "about.logo.tagline" = "Obudź swój dom";
 "about.review.title" = "Zostaw recenzję";
 "about.title" = "O";
@@ -90,10 +90,10 @@
 "extensions.notification_content.error.request.hls_unavailable" = "Strumień HLS niedostępny";
 "extensions.notification_content.error.request.other" = "Otrzymano kod inny niż 200 (%li)";
 "ha_api.api_error.cant_build_url" = "Nie można stworzyć adresu URL interfejsu API";
-"ha_api.api_error.invalid_response" = "Otrzymano nieprawidłową odpowiedź od Home Assistant";
+"ha_api.api_error.invalid_response" = "Otrzymano nieprawidłową odpowiedź od Clesyde";
 "ha_api.api_error.manager_not_available" = "Menedżer interfejsu API HA jest niedostępny";
-"ha_api.api_error.mobile_app_component_not_loaded" = "Komponent mobile_app nie jest załadowany. Dodaj go do konfiguracji, uruchom ponownie Home Assistant i spróbuj ponownie.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Twoja wersja Home Assistant (%@) jest za stara, musisz zaktualizować ją do wersji %@ aby móc korzystać z aplikacji.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "Komponent mobile_app nie jest załadowany. Dodaj go do konfiguracji, uruchom ponownie Clesyde i spróbuj ponownie.";
+"ha_api.api_error.must_upgrade_home_assistant" = "Twoja wersja Clesyde (%@) jest za stara, musisz zaktualizować ją do wersji %@ aby móc korzystać z aplikacji.";
 "ha_api.api_error.not_configured" = "Interfejs API HA nie został skonfigurowany";
 "ha_api.api_error.unacceptable_status_code" = "Unacceptable status code %1$li.";
 "ha_api.api_error.unexpected_type" = "Received response with result of type %1$@ but expected type %2$@.";
@@ -136,14 +136,14 @@
 "nfc.detail.tag_value" = "Identyfikator tagu";
 "nfc.detail.title" = "Tag NFC";
 "nfc.generic_tag_read" = "Odczytaj TAG";
-"nfc.list.description" = "Tagi NFC zapisane przez aplikację wywołają zdarzenie, gdy zbliżysz do nich swoje urządzenie.\n\nTagi będą działać na każdym urządzeniu z zainstalowaną aplikacją Home Assistant, które ma sprzętową obsługę ich odczytywania.";
+"nfc.list.description" = "Tagi NFC zapisane przez aplikację wywołają zdarzenie, gdy zbliżysz do nich swoje urządzenie.\n\nTagi będą działać na każdym urządzeniu z zainstalowaną aplikacją Clesyde, które ma sprzętową obsługę ich odczytywania.";
 "nfc.list.learn_more" = "Dowiedz się więcej";
 "nfc.list.read_tag" = "Odczytaj tag NFC";
 "nfc.list.title" = "Tagi NFC";
 "nfc.list.write_tag" = "Zapisz tag NFC";
 "nfc.not_available" = "NFC nie jest dostępne na tym urządzeniu";
 "nfc.read.error.generic_failure" = "Nie udało się odczytać tagu";
-"nfc.read.error.not_home_assistant" = "Tag NFC nie jest tagiem Home Assistant";
+"nfc.read.error.not_home_assistant" = "Tag NFC nie jest tagiem Clesyde";
 "nfc.read.error.tag_invalid" = "Tag NFC jest nieprawidłowy";
 "nfc.read.start_message" = "Przytrzymaj %@ w pobliżu tagu NFC";
 "nfc.tag_read" = "Odczyt tagu NFC";
@@ -163,7 +163,7 @@
 "notification_service.parser.camera.invalid_entity" = "entity_id provided was invalid.";
 "notification_service.parser.url.invalid_url" = "Podany adres URL był nieprawidłowy.";
 "notification_service.parser.url.no_url" = "Nie podano adresu URL.";
-"notifications_configurator.action.rows.authentication_required.footer" = "Gdy użytkownik wybierze akcję za pomocą tej opcji, system wyświetli monit o odblokowanie urządzenia. Po odblokowaniu Home Assistant zostanie powiadomiony o wybranej akcji.";
+"notifications_configurator.action.rows.authentication_required.footer" = "Gdy użytkownik wybierze akcję za pomocą tej opcji, system wyświetli monit o odblokowanie urządzenia. Po odblokowaniu Clesyde zostanie powiadomiony o wybranej akcji.";
 "notifications_configurator.action.rows.authentication_required.title" = "Wymagane uwierzytelnienie";
 "notifications_configurator.action.rows.destructive.footer" = "Gdy włączony, przycisk akcji będzie posiadał specjalne podświetlenie, wskazujące na wykonywanie niebezpiecznego zadania.";
 "notifications_configurator.action.rows.destructive.title" = "Niebezpieczne";
@@ -222,7 +222,7 @@
 "onboarding.permissions.change_later_note" = "You can change this permission later in Settings";
 "onboarding.permissions.focus.bullet.automations" = "Focus-based automations";
 "onboarding.permissions.focus.bullet.instant" = "Instant updates when status changes";
-"onboarding.permissions.focus.description" = "Allow whether you are in focus mode to be sent to Home Assistant";
+"onboarding.permissions.focus.description" = "Allow whether you are in focus mode to be sent to Clesyde";
 "onboarding.permissions.focus.grant_description" = "Allow focus permission to create sensors for your focus status, also known as do-not-disturb.";
 "onboarding.permissions.focus.title" = "Focus";
 "onboarding.permissions.location.bullet.automations" = "Presence-based automations";
@@ -240,17 +240,17 @@
 "onboarding.permissions.notification.bullet.alert" = "Get alerted from notifications";
 "onboarding.permissions.notification.bullet.badge" = "Update app icon badge";
 "onboarding.permissions.notification.bullet.commands" = "Send commands to your device";
-"onboarding.permissions.notification.description" = "Zezwalaj na wysyłanie powiadomień push z Home Assistant";
+"onboarding.permissions.notification.description" = "Zezwalaj na wysyłanie powiadomień push z Clesyde";
 "onboarding.permissions.notification.grant_description" = "Allow notification permission to create a notify service for your device.";
 "onboarding.permissions.notification.title" = "Powiadomienia";
 "onboarding.scanning.discovered_announcement" = "Odkryto: %@";
 "onboarding.scanning.manual" = "Wprowadź adres ręcznie";
 "onboarding.scanning.manual_hint" = "Nie możesz znaleźć swojego serwera?";
-"onboarding.scanning.title" = "Wyszukiwanie serwerów Home Assistanta";
-"onboarding.welcome.description" = "This app connects to your Home Assistant server and allows integrating data about you and your phone.\
+"onboarding.scanning.title" = "Wyszukiwanie serwerów Clesydea";
+"onboarding.welcome.description" = "This app connects to your Clesyde server and allows integrating data about you and your phone.\
 \
-Home Assistant is free and open source home automation software with a focus on local control and privacy.";
-"onboarding.welcome.title" = "Welcome to Home Assistant %@!";
+Clesyde is free and open source home automation software with a focus on local control and privacy.";
+"onboarding.welcome.title" = "Welcome to Clesyde %@!";
 "open_label" = "Otwórz";
 "preview_output" = "Podgląd wyników";
 "requires_version" = "Wymaga wersji %@ lub nowszej.";
@@ -271,7 +271,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings.connection_section.external_base_url.placeholder" = "https://homeassistant.mójdom.pl";
 "settings.connection_section.external_base_url.title" = "Zewnętrzny adres URL";
 "settings.connection_section.header" = "Połączenie";
-"settings.connection_section.home_assistant_cloud.title" = "Chmura Home Assistant";
+"settings.connection_section.home_assistant_cloud.title" = "Chmura Clesyde";
 "settings.connection_section.internal_base_url.placeholder" = "np. http://homeassistant.local:8123/";
 "settings.connection_section.internal_base_url.title" = "Wewnętrzny adres URL";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Add New Hardware Address";
@@ -282,7 +282,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings.connection_section.internal_url_ssids.footer" = "Wewnętrzny adres URL będzie używany po podłączeniu do wymienionych identyfikatorów SSID (sieci Wi-Fi)";
 "settings.connection_section.internal_url_ssids.header" = "SSID-y (sieci Wi-Fi)";
 "settings.connection_section.internal_url_ssids.placeholder" = "MojaŚmiesznaNazwaSieci";
-"settings.connection_section.local_push_description" = "Directly connect to the Home Assistant server for push notifications when on internal SSIDs.";
+"settings.connection_section.local_push_description" = "Directly connect to the Clesyde server for push notifications when on internal SSIDs.";
 "settings.connection_section.location_send_type.setting.exact" = "Dokładny";
 "settings.connection_section.location_send_type.setting.never" = "Nigdy";
 "settings.connection_section.location_send_type.setting.zone_only" = "Tylko nazwa strefy";
@@ -336,7 +336,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings.location_history.title" = "Historia Lokalizacji";
 "settings.navigation_bar.about_button.title" = "O";
 "settings.navigation_bar.title" = "Ustawienia";
-"settings.reset_section.reset_alert.message" = "Twoje ustawienia zostaną zresetowane, a to urządzenie zostanie wyrejestrowane z powiadomień push, a także usunięte z konfiguracji Home Assistant.";
+"settings.reset_section.reset_alert.message" = "Twoje ustawienia zostaną zresetowane, a to urządzenie zostanie wyrejestrowane z powiadomień push, a także usunięte z konfiguracji Clesyde.";
 "settings.reset_section.reset_alert.progress_message" = "Resetowanie…";
 "settings.reset_section.reset_alert.title" = "Reset";
 "settings.reset_section.reset_row.title" = "Reset";
@@ -344,7 +344,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings.server_select.page_title" = "Serwer";
 "settings.server_select.title" = "Serwer";
 "settings.status_section.header" = "Status";
-"settings.status_section.location_name_row.placeholder" = "Mój Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "Mój Clesyde";
 "settings.status_section.location_name_row.title" = "Nazwa";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Wersja";
@@ -370,7 +370,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings_details.general.app_icon.enum.electric_violet" = "Elektryzujący fioletowy";
 "settings_details.general.app_icon.enum.fire_orange" = "Pomarańczowy ognisty";
 "settings_details.general.app_icon.enum.green" = "Zielona";
-"settings_details.general.app_icon.enum.ha_blue" = "Niebieski Home Assistant'a";
+"settings_details.general.app_icon.enum.ha_blue" = "Niebieski Clesyde'a";
 "settings_details.general.app_icon.enum.old_beta" = "Stara beta";
 "settings_details.general.app_icon.enum.old_dev" = "Stara deweloperska";
 "settings_details.general.app_icon.enum.old_release" = "Stara wersja";
@@ -503,7 +503,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings_details.notifications.title" = "Powiadomienia";
 "settings_details.privacy.alerts.description" = "Umożliwia na sprawdzanie ważnych alertów, takich jak luki w zabezpieczeniach.";
 "settings_details.privacy.alerts.title" = "Alerty";
-"settings_details.privacy.analytics.generic_description" = "Umożliwia gromadzenie podstawowych informacji o urządzeniu i interakcjach z aplikacją. Nie są udostępniane żadne dane identyfikujące użytkownika, w tym adresy URL Home Assistant'a i tokeny. Aby zmiany w tym ustawieniu zaczęły obowiązywać, należy uruchomić aplikację ponownie.";
+"settings_details.privacy.analytics.generic_description" = "Umożliwia gromadzenie podstawowych informacji o urządzeniu i interakcjach z aplikacją. Nie są udostępniane żadne dane identyfikujące użytkownika, w tym adresy URL Clesyde'a i tokeny. Aby zmiany w tym ustawieniu zaczęły obowiązywać, należy uruchomić aplikację ponownie.";
 "settings_details.privacy.analytics.generic_title" = "Analityka";
 "settings_details.privacy.crash_reporting.description" = "Pozwala na głębsze śledzenie awarii i innych błędów w aplikacji, co prowadzi do szybszego publikowania poprawek. Nie są wysyłane żadne informacje identyfikujące użytkownika, inne niż podstawowe informacje o urządzeniu. Aby zmiany w tym ustawieniu zaczęły obowiązywać, należy uruchomić aplikację ponownie.";
 "settings_details.privacy.crash_reporting.sentry" = "Ta funkcja obecnie używa Sentry jako miejsca docelowego raportu.";
@@ -751,10 +751,10 @@ Home Assistant is free and open source home automation software with a focus on 
 "watch.labels.complication_text_areas.trailing.label" = "Trailing";
 "watch.labels.no_action" = "Brak skonfigurowanych działań. Skonfiguruj działania w telefonie, aby wyłączyć ten komunikat.";
 "watch.placeholder_complication_name" = "Tekst zastępczy";
-"widgets.actions.description" = "Wykonaj akcje Home Assistant.";
+"widgets.actions.description" = "Wykonaj akcje Clesyde.";
 "widgets.actions.not_configured" = "Brak skonfigurowanych akcji";
 "widgets.actions.title" = "Akcje";
-"widgets.open_page.description" = "Open a frontend page in Home Assistant.";
+"widgets.open_page.description" = "Open a frontend page in Clesyde.";
 "widgets.open_page.not_configured" = "No Pages Available";
 "widgets.open_page.title" = "Open Page";
 "yes_label" = "Tak";

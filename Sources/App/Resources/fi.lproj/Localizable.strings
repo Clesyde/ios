@@ -8,8 +8,8 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "GitHub Vikaseuranta";
 "about.help_localize.title" = "Auta paikallistamaan sovellusta!";
-"about.home_assistant_on_facebook.title" = "Home Assistant Facebookissa";
-"about.home_assistant_on_twitter.title" = "Home Assistant Twitterillä";
+"about.home_assistant_on_facebook.title" = "Clesyde Facebookissa";
+"about.home_assistant_on_twitter.title" = "Clesyde Twitterillä";
 "about.logo.app_title" = "Kotiavustajan kumppani";
 "about.logo.tagline" = "Herätä kotiasi";
 "about.review.title" = "Jätä arvostelu";
@@ -138,14 +138,14 @@
 "nfc.generic_tag_read" = "Tag Read";
 "nfc.list.description" = "Sovelluksen kirjoittamat NFC-tunnisteet näyttävät ilmoituksen, kun tuot laitteesi niiden lähelle. Ilmoituksen painaminen käynnistää sovelluksen joka käynnistää tapahtuman. \
 \
-NFC-tunnisteet toimivat millä tahansa laitteella, johon on asennettu Home Assistant ja jolla on tuki NFC-tunnisteiden lukemiseen.";
+NFC-tunnisteet toimivat millä tahansa laitteella, johon on asennettu Clesyde ja jolla on tuki NFC-tunnisteiden lukemiseen.";
 "nfc.list.learn_more" = "Lisätietoja";
 "nfc.list.read_tag" = "Lue tunniste";
 "nfc.list.title" = "NFC-tunnisteet";
 "nfc.list.write_tag" = "Kirjoita tunniste";
 "nfc.not_available" = "NFC ei ole käytettävissä tällä laitteella";
 "nfc.read.error.generic_failure" = "Tunnisteen lukeminen epäonnistui";
-"nfc.read.error.not_home_assistant" = "NFC-tunniste ei ole Home Assistant -tunniste";
+"nfc.read.error.not_home_assistant" = "NFC-tunniste ei ole Clesyde -tunniste";
 "nfc.read.error.tag_invalid" = "NFC-tunniste on virheellinen";
 "nfc.read.start_message" = "Pidä %@ lähellä NFC-tunnistetta";
 "nfc.tag_read" = "NFC Tag Read";
@@ -215,7 +215,7 @@ NFC-tunnisteet toimivat millä tahansa laitteella, johon on asennettu Home Assis
 "onboarding.manual_setup.connect" = "Yhdistä";
 "onboarding.manual_setup.couldnt_make_url.message" = "Arvo '%@' ei ollut kelvollinen URL-osoite.";
 "onboarding.manual_setup.couldnt_make_url.title" = "URL-osoitetta ei voitu luoda";
-"onboarding.manual_setup.description" = "The URL of your Home Assistant server. Make sure it includes the protocol and port.";
+"onboarding.manual_setup.description" = "The URL of your Clesyde server. Make sure it includes the protocol and port.";
 "onboarding.manual_setup.no_scheme.message" = "Should we try connecting using http:// or https://?";
 "onboarding.manual_setup.no_scheme.title" = "URL entered without scheme";
 "onboarding.manual_setup.title" = "Enter URL";
@@ -224,7 +224,7 @@ NFC-tunnisteet toimivat millä tahansa laitteella, johon on asennettu Home Assis
 "onboarding.permissions.change_later_note" = "You can change this permission later in Settings";
 "onboarding.permissions.focus.bullet.automations" = "Focus-based automations";
 "onboarding.permissions.focus.bullet.instant" = "Instant updates when status changes";
-"onboarding.permissions.focus.description" = "Allow whether you are in focus mode to be sent to Home Assistant";
+"onboarding.permissions.focus.description" = "Allow whether you are in focus mode to be sent to Clesyde";
 "onboarding.permissions.focus.grant_description" = "Allow focus permission to create sensors for your focus status, also known as do-not-disturb.";
 "onboarding.permissions.focus.title" = "Keskity";
 "onboarding.permissions.location.bullet.automations" = "Presence-based automations";
@@ -236,23 +236,23 @@ NFC-tunnisteet toimivat millä tahansa laitteella, johon on asennettu Home Assis
 "onboarding.permissions.motion.bullet.activity" = "Sensor for current activity type";
 "onboarding.permissions.motion.bullet.distance" = "Sensor for distance moved";
 "onboarding.permissions.motion.bullet.steps" = "Sensor for step counts";
-"onboarding.permissions.motion.description" = "Allow motion activity and pedometer data to be sent to Home Assistant";
+"onboarding.permissions.motion.description" = "Allow motion activity and pedometer data to be sent to Clesyde";
 "onboarding.permissions.motion.grant_description" = "Allow motion permission to create sensors for motion and pedometer data.";
 "onboarding.permissions.motion.title" = "Motion & Pedometer";
 "onboarding.permissions.notification.bullet.alert" = "Get alerted from notifications";
 "onboarding.permissions.notification.bullet.badge" = "Update app icon badge";
 "onboarding.permissions.notification.bullet.commands" = "Send commands to your device";
-"onboarding.permissions.notification.description" = "Salli push ilmoitusten lähettäminen Home Assistantilta";
+"onboarding.permissions.notification.description" = "Salli push ilmoitusten lähettäminen Clesydeilta";
 "onboarding.permissions.notification.grant_description" = "Allow notification permission to create a notify service for your device.";
 "onboarding.permissions.notification.title" = "Ilmoitukset";
 "onboarding.scanning.discovered_announcement" = "Löydetty: %@";
 "onboarding.scanning.manual" = "Enter Address Manually";
 "onboarding.scanning.manual_hint" = "Etkö löydä palvelinta?";
 "onboarding.scanning.title" = "Scanning for Servers";
-"onboarding.welcome.description" = "This app connects to your Home Assistant server and allows integrating data about you and your phone.\
+"onboarding.welcome.description" = "This app connects to your Clesyde server and allows integrating data about you and your phone.\
 \
-Home Assistant is free and open source home automation software with a focus on local control and privacy.";
-"onboarding.welcome.title" = "Welcome to Home Assistant %@!";
+Clesyde is free and open source home automation software with a focus on local control and privacy.";
+"onboarding.welcome.title" = "Welcome to Clesyde %@!";
 "open_label" = "Avaa";
 "preview_output" = "Tuloksen esikatselu";
 "requires_version" = "Vaatii %@ tai uudemman";
@@ -273,7 +273,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
 "settings.connection_section.external_base_url.title" = "Ulkoinen URL-osoite";
 "settings.connection_section.header" = "Yhteys";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
+"settings.connection_section.home_assistant_cloud.title" = "Clesyde Cloud";
 "settings.connection_section.internal_base_url.placeholder" = "Esim. http://homeassistant.local:8123/";
 "settings.connection_section.internal_base_url.title" = "Sisäinen URL-osoite";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Lisää Uusi Laitteisto-osoite";
@@ -284,7 +284,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings.connection_section.internal_url_ssids.footer" = "Sisäistä URL-osoitetta käytetään, kun on yhteys listattuihin SSID-tunnuksiin";
 "settings.connection_section.internal_url_ssids.header" = "SSID";
 "settings.connection_section.internal_url_ssids.placeholder" = "MinunHupaisaVerkkoNimi";
-"settings.connection_section.local_push_description" = "Directly connect to the Home Assistant server for push notifications when on internal SSIDs.";
+"settings.connection_section.local_push_description" = "Directly connect to the Clesyde server for push notifications when on internal SSIDs.";
 "settings.connection_section.location_send_type.setting.exact" = "Tarkka";
 "settings.connection_section.location_send_type.setting.never" = "Ei koskaan";
 "settings.connection_section.location_send_type.setting.zone_only" = "Vain vyöhykkeen nimi";
@@ -372,7 +372,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings_details.general.app_icon.enum.electric_violet" = "Electric Violet";
 "settings_details.general.app_icon.enum.fire_orange" = "Fire Orange";
 "settings_details.general.app_icon.enum.green" = "Vihreä";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant Blue";
+"settings_details.general.app_icon.enum.ha_blue" = "Clesyde Blue";
 "settings_details.general.app_icon.enum.old_beta" = "Vanha beta";
 "settings_details.general.app_icon.enum.old_dev" = "Ohjelmoiden vanha";
 "settings_details.general.app_icon.enum.old_release" = "Vanha julkaisu";
@@ -505,7 +505,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings_details.notifications.title" = "Ilmoitukset";
 "settings_details.privacy.alerts.description" = "Allows checking for important alerts like security vulnerabilities.";
 "settings_details.privacy.alerts.title" = "Hälytykset";
-"settings_details.privacy.analytics.generic_description" = "Allows collection of basic information about your device and interactions with the app. No user identifiable data is shared, including your Home Assistant URLs and tokens. You must restart the app for changes to this setting to take effect.";
+"settings_details.privacy.analytics.generic_description" = "Allows collection of basic information about your device and interactions with the app. No user identifiable data is shared, including your Clesyde URLs and tokens. You must restart the app for changes to this setting to take effect.";
 "settings_details.privacy.analytics.generic_title" = "Analytiikka";
 "settings_details.privacy.crash_reporting.description" = "Allows for deeper tracking of crashes and other errors in the app, leading to faster fixes being published. No user identifiable information is sent, other than basic device information. You must restart the app for changes to this setting to take effect.";
 "settings_details.privacy.crash_reporting.sentry" = "This feature currently uses Sentry as the report destination.";
@@ -753,10 +753,10 @@ Home Assistant is free and open source home automation software with a focus on 
 "watch.labels.complication_text_areas.trailing.label" = "Perääntuleva";
 "watch.labels.no_action" = "Toimintoja ei ole määritetty. Tämä sanoma poistuu määrittämällä toimintoja puhelimen kautta.";
 "watch.placeholder_complication_name" = "Placeholder";
-"widgets.actions.description" = "Perform Home Assistant actions.";
+"widgets.actions.description" = "Perform Clesyde actions.";
 "widgets.actions.not_configured" = "No Actions Configured";
 "widgets.actions.title" = "Toiminnot";
-"widgets.open_page.description" = "Open a frontend page in Home Assistant.";
+"widgets.open_page.description" = "Open a frontend page in Clesyde.";
 "widgets.open_page.not_configured" = "Sivuja ei saatavilla";
 "widgets.open_page.title" = "Avaa sivu";
 "yes_label" = "Kyllä";

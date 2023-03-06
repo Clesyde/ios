@@ -599,7 +599,7 @@
 		<string>_matter._tcp</string>
 	</array>
 	<key>NSLocalNetworkUsageDescription</key>
-	<string>Locate and communicate with your Home Assistant instance.</string>
+	<string>Locate and communicate with your Clesyde instance.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>We suggest selecting &quot;Always Allow&quot; for the best location experience.
             Selecting &quot;Only While Using the App&quot; will disable iBeacons, geofences, background location updates and accurate reporting.</string>
@@ -608,7 +608,7 @@
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Only allowing location access while app is in use will disable iBeacons, geofences, background location updates and accurate reporting.</string>
 	<key>NSLocationUsageDescription</key>
-	<string>When enabled, your device location is sent to your Home Assistant server as a device tracker.</string>
+	<string>When enabled, your device location is sent to your Clesyde server as a device tracker.</string>
 	<key>NSMotionUsageDescription</key>
 	<string>Motion is used to improve location updates with current motion type, as well as provide basic pedometer data.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
@@ -622,9 +622,9 @@
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>Used to dictate text to Assist.</string>
 	<key>NSCameraUsageDescription</key>
-	<string>Take photos and send them to your Home Assistant server.</string>
+	<string>Take photos and send them to your Clesyde server.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Record audio using your Home Assistant frontend.</string>
+	<string>Record audio using your Clesyde frontend.</string>
 	<key>NSFocusStatusUsageDescription</key>
 	<string>Report your focus status as a sensor.</string>
 	<key>com.apple.developer.nfc.readersession.felica.systemcodes</key>

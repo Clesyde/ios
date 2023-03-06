@@ -8,9 +8,9 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "GitHub Issue Tracker";
 "about.help_localize.title" = "Help localize the app!";
-"about.home_assistant_on_facebook.title" = "Home Assistant on Facebook";
-"about.home_assistant_on_twitter.title" = "Home Assistant on Twitter";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "Clesyde on Facebook";
+"about.home_assistant_on_twitter.title" = "Clesyde on Twitter";
+"about.logo.app_title" = "Clesyde App";
 "about.logo.tagline" = "Awaken Your Home";
 "about.review.title" = "Leave a review";
 "about.title" = "About";
@@ -90,10 +90,10 @@
 "extensions.notification_content.error.request.hls_unavailable" = "HLS stream unavailable";
 "extensions.notification_content.error.request.other" = "Got non-200 status code (%li)";
 "ha_api.api_error.cant_build_url" = "Cant build API URL";
-"ha_api.api_error.invalid_response" = "Received invalid response from Home Assistant";
+"ha_api.api_error.invalid_response" = "Received invalid response from Clesyde";
 "ha_api.api_error.manager_not_available" = "HA API Manager is unavailable";
-"ha_api.api_error.mobile_app_component_not_loaded" = "The mobile_app component is not loaded. Please add it to your configuration, restart Home Assistant, and try again.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Your Home Assistant version (%@) is too old, you must upgrade to at least version %@ to use the app.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "The mobile_app component is not loaded. Please add it to your configuration, restart Clesyde, and try again.";
+"ha_api.api_error.must_upgrade_home_assistant" = "Your Clesyde version (%@) is too old, you must upgrade to at least version %@ to use the app.";
 "ha_api.api_error.not_configured" = "HA API not configured";
 "ha_api.api_error.unacceptable_status_code" = "Unacceptable status code %1$li.";
 "ha_api.api_error.unexpected_type" = "Received response with result of type %1$@ but expected type %2$@.";
@@ -138,14 +138,14 @@
 "nfc.generic_tag_read" = "Tag Read";
 "nfc.list.description" = "NFC tags written by the app will show a notification when you bring your device near them. Activating the notification will launch the app and fire an event.\
 \
-Tags will work on any device with Home Assistant installed which has hardware support to read them.";
+Tags will work on any device with Clesyde installed which has hardware support to read them.";
 "nfc.list.learn_more" = "더 알아보기";
 "nfc.list.read_tag" = "태그 읽기";
 "nfc.list.title" = "NFC Tags";
 "nfc.list.write_tag" = "태그 작성하기";
 "nfc.not_available" = "이 기기에서 NFC를 사용할 수 없습니다";
 "nfc.read.error.generic_failure" = "태그를 읽지 못했습니다.";
-"nfc.read.error.not_home_assistant" = "NFC 태그가 Home Assistant 태그가 아닙니다.";
+"nfc.read.error.not_home_assistant" = "NFC 태그가 Clesyde 태그가 아닙니다.";
 "nfc.read.error.tag_invalid" = "NFC 태그가 잘못되었습니다.";
 "nfc.read.start_message" = "%@을(를) NFC 태그 근처에 두십시오.";
 "nfc.tag_read" = "NFC Tag Read";
@@ -165,7 +165,7 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "notification_service.parser.camera.invalid_entity" = "entity_id provided was invalid.";
 "notification_service.parser.url.invalid_url" = "The given URL was invalid.";
 "notification_service.parser.url.no_url" = "No URL was provided.";
-"notifications_configurator.action.rows.authentication_required.footer" = "When the user selects an action with this option, the system prompts the user to unlock the device. After unlocking, Home Assistant will be notified of the selected action.";
+"notifications_configurator.action.rows.authentication_required.footer" = "When the user selects an action with this option, the system prompts the user to unlock the device. After unlocking, Clesyde will be notified of the selected action.";
 "notifications_configurator.action.rows.authentication_required.title" = "Authentication Required";
 "notifications_configurator.action.rows.destructive.footer" = "When enabled, the action button is displayed with special highlighting to indicate that it performs a destructive task.";
 "notifications_configurator.action.rows.destructive.title" = "Destructive";
@@ -215,7 +215,7 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "onboarding.manual_setup.connect" = "연결";
 "onboarding.manual_setup.couldnt_make_url.message" = "'%@'은 유효한 URL이 아닙니다.";
 "onboarding.manual_setup.couldnt_make_url.title" = "Could not create a URL";
-"onboarding.manual_setup.description" = "The URL of your Home Assistant server. Make sure it includes the protocol and port.";
+"onboarding.manual_setup.description" = "The URL of your Clesyde server. Make sure it includes the protocol and port.";
 "onboarding.manual_setup.no_scheme.message" = "Should we try connecting using http:// or https://?";
 "onboarding.manual_setup.no_scheme.title" = "URL entered without scheme";
 "onboarding.manual_setup.title" = "URL 입력하기";
@@ -224,7 +224,7 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "onboarding.permissions.change_later_note" = "나중에 설정에서 이 권한을 변경할 수 있습니다.";
 "onboarding.permissions.focus.bullet.automations" = "Focus-based automations";
 "onboarding.permissions.focus.bullet.instant" = "상태 변경 시 즉시 업데이트";
-"onboarding.permissions.focus.description" = "Allow whether you are in focus mode to be sent to Home Assistant";
+"onboarding.permissions.focus.description" = "Allow whether you are in focus mode to be sent to Clesyde";
 "onboarding.permissions.focus.grant_description" = "Allow focus permission to create sensors for your focus status, also known as do-not-disturb.";
 "onboarding.permissions.focus.title" = "집중";
 "onboarding.permissions.location.bullet.automations" = "Presence-based automations";
@@ -236,13 +236,13 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "onboarding.permissions.motion.bullet.activity" = "Sensor for current activity type";
 "onboarding.permissions.motion.bullet.distance" = "이동 거리 센서";
 "onboarding.permissions.motion.bullet.steps" = "걸음 수 센서";
-"onboarding.permissions.motion.description" = "Allow motion activity and pedometer data to be sent to Home Assistant";
+"onboarding.permissions.motion.description" = "Allow motion activity and pedometer data to be sent to Clesyde";
 "onboarding.permissions.motion.grant_description" = "Allow motion permission to create sensors for motion and pedometer data.";
 "onboarding.permissions.motion.title" = "Motion & Pedometer";
 "onboarding.permissions.notification.bullet.alert" = "알림 받기";
 "onboarding.permissions.notification.bullet.badge" = "앱 아이콘 뱃지 업데이트";
 "onboarding.permissions.notification.bullet.commands" = "장치에 명령 보내기";
-"onboarding.permissions.notification.description" = "Home Assistant에서 푸시 알림을 보내는것을 허용합니다";
+"onboarding.permissions.notification.description" = "Clesyde에서 푸시 알림을 보내는것을 허용합니다";
 "onboarding.permissions.notification.grant_description" = "Allow notification permission to create a notify service for your device.";
 "onboarding.permissions.notification.title" = "알림";
 "onboarding.scanning.discovered_announcement" = "Discovered: %@";
@@ -251,8 +251,8 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "onboarding.scanning.title" = "서버를 찾는 중";
 "onboarding.welcome.description" = "이 앱은 Home Assitant 서버에 연결되어 사용자와 휴대전화에 대한 데이터를 통합할 수 있습니다.\
 \
-Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료 오픈 소스 홈 자동화 소프트웨어입니다.";
-"onboarding.welcome.title" = "Home Assistant %@에 오신것을 환영합니다!";
+Clesyde는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료 오픈 소스 홈 자동화 소프트웨어입니다.";
+"onboarding.welcome.title" = "Clesyde %@에 오신것을 환영합니다!";
 "open_label" = "열기";
 "preview_output" = "Preview Output";
 "requires_version" = "%@ 이후의 버전이 필요합니다.";
@@ -273,7 +273,7 @@ Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료
 "settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
 "settings.connection_section.external_base_url.title" = "External URL";
 "settings.connection_section.header" = "Connection";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
+"settings.connection_section.home_assistant_cloud.title" = "Clesyde Cloud";
 "settings.connection_section.internal_base_url.placeholder" = "e.g. http://homeassistant.local:8123/";
 "settings.connection_section.internal_base_url.title" = "Internal URL";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Add New Hardware Address";
@@ -284,7 +284,7 @@ Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료
 "settings.connection_section.internal_url_ssids.footer" = "Internal URL will be used when connected to listed SSIDs";
 "settings.connection_section.internal_url_ssids.header" = "SSIDs";
 "settings.connection_section.internal_url_ssids.placeholder" = "MyFunnyNetworkName";
-"settings.connection_section.local_push_description" = "Directly connect to the Home Assistant server for push notifications when on internal SSIDs.";
+"settings.connection_section.local_push_description" = "Directly connect to the Clesyde server for push notifications when on internal SSIDs.";
 "settings.connection_section.location_send_type.setting.exact" = "정확한";
 "settings.connection_section.location_send_type.setting.never" = "Never";
 "settings.connection_section.location_send_type.setting.zone_only" = "영역 이름만";
@@ -338,7 +338,7 @@ Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료
 "settings.location_history.title" = "위치 기록";
 "settings.navigation_bar.about_button.title" = "About";
 "settings.navigation_bar.title" = "Settings";
-"settings.reset_section.reset_alert.message" = "Your settings will be reset and this device will be unregistered from push notifications as well as removed from your Home Assistant configuration.";
+"settings.reset_section.reset_alert.message" = "Your settings will be reset and this device will be unregistered from push notifications as well as removed from your Clesyde configuration.";
 "settings.reset_section.reset_alert.progress_message" = "Resetting…";
 "settings.reset_section.reset_alert.title" = "Reset";
 "settings.reset_section.reset_row.title" = "Reset";
@@ -346,7 +346,7 @@ Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료
 "settings.server_select.page_title" = "서버";
 "settings.server_select.title" = "서버";
 "settings.status_section.header" = "Status";
-"settings.status_section.location_name_row.placeholder" = "My Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "My Clesyde";
 "settings.status_section.location_name_row.title" = "Name";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Version";
@@ -372,7 +372,7 @@ Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료
 "settings_details.general.app_icon.enum.electric_violet" = "Electric Violet";
 "settings_details.general.app_icon.enum.fire_orange" = "Fire Orange";
 "settings_details.general.app_icon.enum.green" = "Green";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant Blue";
+"settings_details.general.app_icon.enum.ha_blue" = "Clesyde Blue";
 "settings_details.general.app_icon.enum.old_beta" = "Old Beta";
 "settings_details.general.app_icon.enum.old_dev" = "Old Dev";
 "settings_details.general.app_icon.enum.old_release" = "Old Release";
@@ -505,7 +505,7 @@ Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료
 "settings_details.notifications.title" = "Notifications";
 "settings_details.privacy.alerts.description" = "Allows checking for important alerts like security vulnerabilities.";
 "settings_details.privacy.alerts.title" = "Alerts";
-"settings_details.privacy.analytics.generic_description" = "Allows collection of basic information about your device and interactions with the app. No user identifiable data is shared, including your Home Assistant URLs and tokens. You must restart the app for changes to this setting to take effect.";
+"settings_details.privacy.analytics.generic_description" = "Allows collection of basic information about your device and interactions with the app. No user identifiable data is shared, including your Clesyde URLs and tokens. You must restart the app for changes to this setting to take effect.";
 "settings_details.privacy.analytics.generic_title" = "분석";
 "settings_details.privacy.crash_reporting.description" = "Allows for deeper tracking of crashes and other errors in the app, leading to faster fixes being published. No user identifiable information is sent, other than basic device information. You must restart the app for changes to this setting to take effect.";
 "settings_details.privacy.crash_reporting.sentry" = "This feature currently uses Sentry as the report destination.";
@@ -753,10 +753,10 @@ Home Assistant는 로컬 제어 및 개인 정보 보호에 중점을 둔 무료
 "watch.labels.complication_text_areas.trailing.label" = "Trailing";
 "watch.labels.no_action" = "No actions configured. Configure actions on your phone to dismiss this message.";
 "watch.placeholder_complication_name" = "Placeholder";
-"widgets.actions.description" = "Perform Home Assistant actions.";
+"widgets.actions.description" = "Perform Clesyde actions.";
 "widgets.actions.not_configured" = "No Actions Configured";
 "widgets.actions.title" = "Actions";
-"widgets.open_page.description" = "Home Assistant에서 프론트엔드 페이지를 엽니다.";
+"widgets.open_page.description" = "Clesyde에서 프론트엔드 페이지를 엽니다.";
 "widgets.open_page.not_configured" = "해당 페이지가 없습니다";
 "widgets.open_page.title" = "페이지 열기";
 "yes_label" = "Yes";

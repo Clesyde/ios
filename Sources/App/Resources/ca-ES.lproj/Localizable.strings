@@ -8,9 +8,9 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "Rastrejador de problemes de Github";
 "about.help_localize.title" = "Ajudeu a traduïr l'aplicació!";
-"about.home_assistant_on_facebook.title" = "Home Assistant a Facebook";
-"about.home_assistant_on_twitter.title" = "Home Assistant a Twitter";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "Clesyde a Facebook";
+"about.home_assistant_on_twitter.title" = "Clesyde a Twitter";
+"about.logo.app_title" = "Clesyde App";
 "about.logo.tagline" = "Desperta la teva llar";
 "about.review.title" = "Deixa una ressenya";
 "about.title" = "Quant a";
@@ -90,9 +90,9 @@
 "extensions.notification_content.error.request.hls_unavailable" = "HLS Stream no disponible";
 "extensions.notification_content.error.request.other" = "S'ha rebut codi d'estat no-200 (%li)";
 "ha_api.api_error.cant_build_url" = "No es pot crear l'adreça URL de l'API";
-"ha_api.api_error.invalid_response" = "S'ha rebut una resposta invàlida del Home Assistant";
+"ha_api.api_error.invalid_response" = "S'ha rebut una resposta invàlida del Clesyde";
 "ha_api.api_error.manager_not_available" = "El gestor API HA no està disponible";
-"ha_api.api_error.mobile_app_component_not_loaded" = "El component mobile_app no s'ha carregat. Afegiu-lo a la configuració, reinicieu el Home Assistant i torneu-ho a provar.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "El component mobile_app no s'ha carregat. Afegiu-lo a la configuració, reinicieu el Clesyde i torneu-ho a provar.";
 "ha_api.api_error.must_upgrade_home_assistant" = "La versió de l'assistent per a la llar ( %@ ) és massa antiga, heu d'actualitzar almenys a la versió %@ per utilitzar l'aplicació.";
 "ha_api.api_error.not_configured" = "L'API HA no està configurada";
 "ha_api.api_error.unacceptable_status_code" = "Codi d'estat inacceptable %1$li.";
@@ -138,14 +138,14 @@
 "nfc.generic_tag_read" = "Llegir etiqueta";
 "nfc.list.description" = "Les etiquetes NFC escrites per l'aplicació mostraran una notificació quan apropeu el vostre dispositiu. Si activeu la notificació, s'obrirà l’aplicació i disparará un esdeveniment. \
 \
-Les etiquetes funcionaran en qualsevol dispositiu amb Home Assistant instal·lat que tingui maquinari per llegir-les.";
+Les etiquetes funcionaran en qualsevol dispositiu amb Clesyde instal·lat que tingui maquinari per llegir-les.";
 "nfc.list.learn_more" = "Més informació";
 "nfc.list.read_tag" = "Llegir l’etiqueta";
 "nfc.list.title" = "Etiquetes NFC";
 "nfc.list.write_tag" = "Escriure etiqueta";
 "nfc.not_available" = "L'NFC no està disponible en aquest dispositiu";
 "nfc.read.error.generic_failure" = "No s'ha pogut llegir l'etiqueta";
-"nfc.read.error.not_home_assistant" = "L'etiqueta NFC no és una etiqueta Home Assistant";
+"nfc.read.error.not_home_assistant" = "L'etiqueta NFC no és una etiqueta Clesyde";
 "nfc.read.error.tag_invalid" = "L'etiqueta NFC no és vàlida";
 "nfc.read.start_message" = "Mentingueu el vostre %@ prop d'una etiqueta NFC";
 "nfc.tag_read" = "Lectura d'etiquetes NFC";
@@ -165,7 +165,7 @@ Les etiquetes funcionaran en qualsevol dispositiu amb Home Assistant instal·lat
 "notification_service.parser.camera.invalid_entity" = "entity_id proporcionat no era vàlid.";
 "notification_service.parser.url.invalid_url" = "L'adreça URL donada no era vàlida.";
 "notification_service.parser.url.no_url" = "No s'ha proporcionat cap URL.";
-"notifications_configurator.action.rows.authentication_required.footer" = "When the user selects an action with this option, the system prompts the user to unlock the device. After unlocking, Home Assistant will be notified of the selected action.";
+"notifications_configurator.action.rows.authentication_required.footer" = "When the user selects an action with this option, the system prompts the user to unlock the device. After unlocking, Clesyde will be notified of the selected action.";
 "notifications_configurator.action.rows.authentication_required.title" = "Autenticació obligatòria";
 "notifications_configurator.action.rows.destructive.footer" = "Quan està habilitat, el botó d'acció es mostra amb un ressaltat especial per indicar que realitza una tasca destructiva.";
 "notifications_configurator.action.rows.destructive.title" = "Destructiu";
@@ -215,7 +215,7 @@ Les etiquetes funcionaran en qualsevol dispositiu amb Home Assistant instal·lat
 "onboarding.manual_setup.connect" = "Connecta't";
 "onboarding.manual_setup.couldnt_make_url.message" = "El valor \" %@ \" no és una URL vàlida.";
 "onboarding.manual_setup.couldnt_make_url.title" = "No s'ha pogut crear una URL";
-"onboarding.manual_setup.description" = "L'adreça URL del servidor Home Assistant. Assegureu-vos que inclou el protocol i el port.";
+"onboarding.manual_setup.description" = "L'adreça URL del servidor Clesyde. Assegureu-vos que inclou el protocol i el port.";
 "onboarding.manual_setup.no_scheme.message" = "Hauríem d'intentar connectar-nos utilitzant http:// o https://?";
 "onboarding.manual_setup.no_scheme.title" = "URL introduïda sense esquema";
 "onboarding.manual_setup.title" = "Introduïu l'adreça URL";
@@ -224,7 +224,7 @@ Les etiquetes funcionaran en qualsevol dispositiu amb Home Assistant instal·lat
 "onboarding.permissions.change_later_note" = "Podeu canviar aquest permís més endavant a la Configuració";
 "onboarding.permissions.focus.bullet.automations" = "Automatismes basats en la concentració";
 "onboarding.permissions.focus.bullet.instant" = "Actualitzacions instantànies quan canvia l'estat";
-"onboarding.permissions.focus.description" = "Permet que s'enviï si estàs en mode de concentració al Home Assistant";
+"onboarding.permissions.focus.description" = "Permet que s'enviï si estàs en mode de concentració al Clesyde";
 "onboarding.permissions.focus.grant_description" = "Activa el permís de concentració per crear sensors del teu estat de concentració, també conegut com a no-molestar.";
 "onboarding.permissions.focus.title" = "Enfocar-se";
 "onboarding.permissions.location.bullet.automations" = "Automatismes basats en la presència";
@@ -236,7 +236,7 @@ Les etiquetes funcionaran en qualsevol dispositiu amb Home Assistant instal·lat
 "onboarding.permissions.motion.bullet.activity" = "Sensor pel tipus d'activitat actual";
 "onboarding.permissions.motion.bullet.distance" = "Sensor de distància recorreguda";
 "onboarding.permissions.motion.bullet.steps" = "Sensor per comptar passos";
-"onboarding.permissions.motion.description" = "Permet que s'enviïn dades de moviment i del podòmetre al Home Assistant";
+"onboarding.permissions.motion.description" = "Permet que s'enviïn dades de moviment i del podòmetre al Clesyde";
 "onboarding.permissions.motion.grant_description" = "Activa el permís de moviment per crear sensors de moviment i dades del podòmetre.";
 "onboarding.permissions.motion.title" = "Moviment i podòmetre";
 "onboarding.permissions.notification.bullet.alert" = "Rebre alertes de notificacions";
@@ -249,10 +249,10 @@ Les etiquetes funcionaran en qualsevol dispositiu amb Home Assistant instal·lat
 "onboarding.scanning.manual" = "Introduïu l'adreça manualment";
 "onboarding.scanning.manual_hint" = "No trobeu el vostre servidor?";
 "onboarding.scanning.title" = "S'està cercant servidors";
-"onboarding.welcome.description" = "Aquesta aplicació es connecta al vostre servidor Home Assistant i permet integrar dades sobre tu i el teu telèfon. \
+"onboarding.welcome.description" = "Aquesta aplicació es connecta al vostre servidor Clesyde i permet integrar dades sobre tu i el teu telèfon. \
 \
-Home Assistant és un programari d'automatització de la llar gratuït i de codi obert, centrat en el control local i la privadesa.";
-"onboarding.welcome.title" = "Benvinguts a Home Assistant %@!";
+Clesyde és un programari d'automatització de la llar gratuït i de codi obert, centrat en el control local i la privadesa.";
+"onboarding.welcome.title" = "Benvinguts a Clesyde %@!";
 "open_label" = "Obrir";
 "preview_output" = "Previsualització de la sortida";
 "requires_version" = "Requereix %@ o posterior";
@@ -273,7 +273,7 @@ Home Assistant és un programari d'automatització de la llar gratuït i de codi
 "settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
 "settings.connection_section.external_base_url.title" = "URL externa";
 "settings.connection_section.header" = "Connexió";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
+"settings.connection_section.home_assistant_cloud.title" = "Clesyde Cloud";
 "settings.connection_section.internal_base_url.placeholder" = "p.e. http://homeassistant.local:8123";
 "settings.connection_section.internal_base_url.title" = "URL interna";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Afegeix una adreça de maquinari nova";
@@ -284,7 +284,7 @@ Home Assistant és un programari d'automatització de la llar gratuït i de codi
 "settings.connection_section.internal_url_ssids.footer" = "La URL interna s'utilitzarà quan estigui connectat a algun dels SSIDs de la llista";
 "settings.connection_section.internal_url_ssids.header" = "SSIDs";
 "settings.connection_section.internal_url_ssids.placeholder" = "ElMeuNomDeXarxaDivertit";
-"settings.connection_section.local_push_description" = "Connecteu-vos directament al servidor Home Assistant per rebre notificacions push quan estigueu connectats a SSIDs interns.";
+"settings.connection_section.local_push_description" = "Connecteu-vos directament al servidor Clesyde per rebre notificacions push quan estigueu connectats a SSIDs interns.";
 "settings.connection_section.location_send_type.setting.exact" = "Exacte";
 "settings.connection_section.location_send_type.setting.never" = "Mai";
 "settings.connection_section.location_send_type.setting.zone_only" = "Només el nom de la zona";
@@ -338,7 +338,7 @@ Home Assistant és un programari d'automatització de la llar gratuït i de codi
 "settings.location_history.title" = "Historial d'ubicació";
 "settings.navigation_bar.about_button.title" = "Quant a";
 "settings.navigation_bar.title" = "Configuració";
-"settings.reset_section.reset_alert.message" = "La vostra configuració es restablirà i aquest dispositiu deixarà d'estar registrat de les notificacions push així com també s'eliminarà de la configuració del vostre Home Assistant.";
+"settings.reset_section.reset_alert.message" = "La vostra configuració es restablirà i aquest dispositiu deixarà d'estar registrat de les notificacions push així com també s'eliminarà de la configuració del vostre Clesyde.";
 "settings.reset_section.reset_alert.progress_message" = "S'està restablint …";
 "settings.reset_section.reset_alert.title" = "Restablir";
 "settings.reset_section.reset_row.title" = "Restablir";
@@ -346,7 +346,7 @@ Home Assistant és un programari d'automatització de la llar gratuït i de codi
 "settings.server_select.page_title" = "Servidor";
 "settings.server_select.title" = "Servidor";
 "settings.status_section.header" = "Estat";
-"settings.status_section.location_name_row.placeholder" = "Mi Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "Mi Clesyde";
 "settings.status_section.location_name_row.title" = "Nom";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Versió";
@@ -372,7 +372,7 @@ Home Assistant és un programari d'automatització de la llar gratuït i de codi
 "settings_details.general.app_icon.enum.electric_violet" = "Violeta Elèctric";
 "settings_details.general.app_icon.enum.fire_orange" = "Taronja de foc";
 "settings_details.general.app_icon.enum.green" = "Verd";
-"settings_details.general.app_icon.enum.ha_blue" = "Blau Home Assistant";
+"settings_details.general.app_icon.enum.ha_blue" = "Blau Clesyde";
 "settings_details.general.app_icon.enum.old_beta" = "Beta antiga";
 "settings_details.general.app_icon.enum.old_dev" = "Antic Dev";
 "settings_details.general.app_icon.enum.old_release" = "Versió antiga";
@@ -505,7 +505,7 @@ Home Assistant és un programari d'automatització de la llar gratuït i de codi
 "settings_details.notifications.title" = "Notificacions";
 "settings_details.privacy.alerts.description" = "Permet comprovar si hi ha alertes importants, com ara vulnerabilitats de seguretat.";
 "settings_details.privacy.alerts.title" = "Alertes";
-"settings_details.privacy.analytics.generic_description" = "Permet la recopilació d'informació bàsica sobre el dispositiu i les interaccions amb l'aplicació. No es comparteixen dades identificables de l'usuari, inclosos les URL i els tokens del Home Assistant. Heu de reiniciar l'aplicació perquè els canvis en aquesta configuració tinguin efecte.";
+"settings_details.privacy.analytics.generic_description" = "Permet la recopilació d'informació bàsica sobre el dispositiu i les interaccions amb l'aplicació. No es comparteixen dades identificables de l'usuari, inclosos les URL i els tokens del Clesyde. Heu de reiniciar l'aplicació perquè els canvis en aquesta configuració tinguin efecte.";
 "settings_details.privacy.analytics.generic_title" = "Analytics";
 "settings_details.privacy.crash_reporting.description" = "Permet un seguiment més profund de bloquejos i altres errors de l'aplicació, cosa que permet publicar solucions amb més rapidesa. No s’envia cap informació identificable de l’usuari, a part de la informació bàsica del dispositiu. Heu de reiniciar l'aplicació perquè els canvis en aquesta configuració tinguin efecte.";
 "settings_details.privacy.crash_reporting.sentry" = "Actualment, aquesta característica utilitza Sentry com a destinació de l'informe.";
@@ -753,10 +753,10 @@ Home Assistant és un programari d'automatització de la llar gratuït i de codi
 "watch.labels.complication_text_areas.trailing.label" = "Arrossegant";
 "watch.labels.no_action" = "No s'ha configurat cap acció. Configureu les accions al telèfon per ignorar aquest missatge.";
 "watch.placeholder_complication_name" = "Contenidor";
-"widgets.actions.description" = "Realitza accions del Home Assistant.";
+"widgets.actions.description" = "Realitza accions del Clesyde.";
 "widgets.actions.not_configured" = "No hi ha accions configurades";
 "widgets.actions.title" = "Accions";
-"widgets.open_page.description" = "Obrir una pàgina del Home Assistant";
+"widgets.open_page.description" = "Obrir una pàgina del Clesyde";
 "widgets.open_page.not_configured" = "No hi ha pàgines disponibles";
 "widgets.open_page.title" = "Obre la pàgina";
 "yes_label" = "Si";

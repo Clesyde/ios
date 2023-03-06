@@ -8,9 +8,9 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "GitHub Issue Tracker";
 "about.help_localize.title" = "Help localise the app!";
-"about.home_assistant_on_facebook.title" = "Home Assistant on Facebook";
-"about.home_assistant_on_twitter.title" = "Home Assistant on Twitter";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "Clesyde on Facebook";
+"about.home_assistant_on_twitter.title" = "Clesyde on Twitter";
+"about.logo.app_title" = "Clesyde App";
 "about.logo.tagline" = "Awaken Your Home";
 "about.review.title" = "Leave a review";
 "about.title" = "About";
@@ -90,10 +90,10 @@
 "extensions.notification_content.error.request.hls_unavailable" = "HLS stream unavailable";
 "extensions.notification_content.error.request.other" = "Got non-200 status code (%li)";
 "ha_api.api_error.cant_build_url" = "Can't build API URL";
-"ha_api.api_error.invalid_response" = "Received invalid response from Home Assistant";
+"ha_api.api_error.invalid_response" = "Received invalid response from Clesyde";
 "ha_api.api_error.manager_not_available" = "HA API Manager is unavailable";
-"ha_api.api_error.mobile_app_component_not_loaded" = "The mobile_app integration is not loaded. Please add it to your configuration, then restart Home Assistant and try again.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Your Home Assistant version (%@) is too old, you must upgrade to at least version %@ to use the app.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "The mobile_app integration is not loaded. Please add it to your configuration, then restart Clesyde and try again.";
+"ha_api.api_error.must_upgrade_home_assistant" = "Your Clesyde version (%@) is too old, you must upgrade to at least version %@ to use the app.";
 "ha_api.api_error.not_configured" = "HA API not configured";
 "ha_api.api_error.unacceptable_status_code" = "Unacceptable status code %1$li.";
 "ha_api.api_error.unexpected_type" = "Received response with result of type %1$@ but expected type %2$@.";
@@ -138,14 +138,14 @@
 "nfc.generic_tag_read" = "Tag Read";
 "nfc.list.description" = "NFC tags written by the app will show a notification when you bring your device near them. Activating the notification will launch the app and fire an event.\
 \
-Tags will work on any device with Home Assistant installed which has hardware support to read them.";
+Tags will work on any device with Clesyde installed which has hardware support to read them.";
 "nfc.list.learn_more" = "Learn More";
 "nfc.list.read_tag" = "Read Tag";
 "nfc.list.title" = "NFC Tags";
 "nfc.list.write_tag" = "Write Tag";
 "nfc.not_available" = "NFC is not available on this device";
 "nfc.read.error.generic_failure" = "Failed to read tag";
-"nfc.read.error.not_home_assistant" = "NFC tag is not a Home Assistant tag";
+"nfc.read.error.not_home_assistant" = "NFC tag is not a Clesyde tag";
 "nfc.read.error.tag_invalid" = "NFC tag is invalid";
 "nfc.read.start_message" = "Hold your %@ near an NFC tag";
 "nfc.tag_read" = "NFC Tag Read";
@@ -165,7 +165,7 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "notification_service.parser.camera.invalid_entity" = "entity_id provided was invalid.";
 "notification_service.parser.url.invalid_url" = "The given URL was invalid.";
 "notification_service.parser.url.no_url" = "No URL was provided.";
-"notifications_configurator.action.rows.authentication_required.footer" = "When the user selects an action with this option, the system prompts the user to unlock the device. After unlocking, Home Assistant will be notified of the selected action.";
+"notifications_configurator.action.rows.authentication_required.footer" = "When the user selects an action with this option, the system prompts the user to unlock the device. After unlocking, Clesyde will be notified of the selected action.";
 "notifications_configurator.action.rows.authentication_required.title" = "Authentication Required";
 "notifications_configurator.action.rows.destructive.footer" = "When enabled, the action button is displayed with special highlighting to indicate that it performs a destructive task.";
 "notifications_configurator.action.rows.destructive.title" = "Destructive";
@@ -215,7 +215,7 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "onboarding.manual_setup.connect" = "Connect";
 "onboarding.manual_setup.couldnt_make_url.message" = "The value '%@' was not a valid URL.";
 "onboarding.manual_setup.couldnt_make_url.title" = "Could not create a URL";
-"onboarding.manual_setup.description" = "The URL of your Home Assistant server. Make sure it includes the protocol and port.";
+"onboarding.manual_setup.description" = "The URL of your Clesyde server. Make sure it includes the protocol and port.";
 "onboarding.manual_setup.no_scheme.message" = "Should we try connecting using http:// or https://?";
 "onboarding.manual_setup.no_scheme.title" = "URL entered without scheme";
 "onboarding.manual_setup.title" = "Enter URL";
@@ -224,7 +224,7 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "onboarding.permissions.change_later_note" = "You can change this permission later in Settings";
 "onboarding.permissions.focus.bullet.automations" = "Focus-based automations";
 "onboarding.permissions.focus.bullet.instant" = "Instant updates when status changes";
-"onboarding.permissions.focus.description" = "Allow whether you are in focus mode to be sent to Home Assistant";
+"onboarding.permissions.focus.description" = "Allow whether you are in focus mode to be sent to Clesyde";
 "onboarding.permissions.focus.grant_description" = "Allow focus permission to create sensors for your focus status, also known as do-not-disturb.";
 "onboarding.permissions.focus.title" = "Focus";
 "onboarding.permissions.location.bullet.automations" = "Presence-based automations";
@@ -236,23 +236,23 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "onboarding.permissions.motion.bullet.activity" = "Sensor for current activity type";
 "onboarding.permissions.motion.bullet.distance" = "Sensor for distance moved";
 "onboarding.permissions.motion.bullet.steps" = "Sensor for step counts";
-"onboarding.permissions.motion.description" = "Allow motion activity and pedometer data to be sent to Home Assistant";
+"onboarding.permissions.motion.description" = "Allow motion activity and pedometer data to be sent to Clesyde";
 "onboarding.permissions.motion.grant_description" = "Allow motion permission to create sensors for motion and pedometer data.";
 "onboarding.permissions.motion.title" = "Motion & Pedometer";
 "onboarding.permissions.notification.bullet.alert" = "Get alerted from notifications";
 "onboarding.permissions.notification.bullet.badge" = "Update app icon badge";
 "onboarding.permissions.notification.bullet.commands" = "Send commands to your device";
-"onboarding.permissions.notification.description" = "Allow push notifications to be sent from your Home Assistant";
+"onboarding.permissions.notification.description" = "Allow push notifications to be sent from your Clesyde";
 "onboarding.permissions.notification.grant_description" = "Allow notification permission to create a notify service for your device.";
 "onboarding.permissions.notification.title" = "Notifications";
 "onboarding.scanning.discovered_announcement" = "Discovered: %@";
 "onboarding.scanning.manual" = "Enter Address Manually";
 "onboarding.scanning.manual_hint" = "Not finding your server?";
 "onboarding.scanning.title" = "Scanning for Servers";
-"onboarding.welcome.description" = "This app connects to your Home Assistant server and allows integrating data about you and your phone.\
+"onboarding.welcome.description" = "This app connects to your Clesyde server and allows integrating data about you and your phone.\
 \
-Home Assistant is free and open source home automation software with a focus on local control and privacy.";
-"onboarding.welcome.title" = "Welcome to Home Assistant %@!";
+Clesyde is free and open source home automation software with a focus on local control and privacy.";
+"onboarding.welcome.title" = "Welcome to Clesyde %@!";
 "open_label" = "Open";
 "preview_output" = "Preview Output";
 "requires_version" = "Requires %@ or later.";
@@ -273,7 +273,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
 "settings.connection_section.external_base_url.title" = "External URL";
 "settings.connection_section.header" = "Connection";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
+"settings.connection_section.home_assistant_cloud.title" = "Clesyde Cloud";
 "settings.connection_section.internal_base_url.placeholder" = "e.g. http://homeassistant.local:8123/";
 "settings.connection_section.internal_base_url.title" = "Internal URL";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Add New Hardware Address";
@@ -284,7 +284,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings.connection_section.internal_url_ssids.footer" = "Internal URL will be used when connected to listed SSIDs";
 "settings.connection_section.internal_url_ssids.header" = "SSIDs";
 "settings.connection_section.internal_url_ssids.placeholder" = "MyFunnyNetworkName";
-"settings.connection_section.local_push_description" = "Directly connect to the Home Assistant server for push notifications when on internal SSIDs.";
+"settings.connection_section.local_push_description" = "Directly connect to the Clesyde server for push notifications when on internal SSIDs.";
 "settings.connection_section.location_send_type.setting.exact" = "Exact";
 "settings.connection_section.location_send_type.setting.never" = "Never";
 "settings.connection_section.location_send_type.setting.zone_only" = "Zone Name Only";
@@ -338,7 +338,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings.location_history.title" = "Location History";
 "settings.navigation_bar.about_button.title" = "About";
 "settings.navigation_bar.title" = "Settings";
-"settings.reset_section.reset_alert.message" = "Your settings will be reset and this device will be unregistered from push notifications as well as removed from your Home Assistant configuration.";
+"settings.reset_section.reset_alert.message" = "Your settings will be reset and this device will be unregistered from push notifications as well as removed from your Clesyde configuration.";
 "settings.reset_section.reset_alert.progress_message" = "Resetting…";
 "settings.reset_section.reset_alert.title" = "Reset";
 "settings.reset_section.reset_row.title" = "Reset";
@@ -346,7 +346,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings.server_select.page_title" = "Server";
 "settings.server_select.title" = "Server";
 "settings.status_section.header" = "Status";
-"settings.status_section.location_name_row.placeholder" = "My Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "My Clesyde";
 "settings.status_section.location_name_row.title" = "Name";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Version";
@@ -372,7 +372,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings_details.general.app_icon.enum.electric_violet" = "Electric Violet";
 "settings_details.general.app_icon.enum.fire_orange" = "Fire Orange";
 "settings_details.general.app_icon.enum.green" = "Green";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant Blue";
+"settings_details.general.app_icon.enum.ha_blue" = "Clesyde Blue";
 "settings_details.general.app_icon.enum.old_beta" = "Old Beta";
 "settings_details.general.app_icon.enum.old_dev" = "Old Dev";
 "settings_details.general.app_icon.enum.old_release" = "Old Release";
@@ -505,7 +505,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings_details.notifications.title" = "Notifications";
 "settings_details.privacy.alerts.description" = "Allows checking for important alerts like security vulnerabilities.";
 "settings_details.privacy.alerts.title" = "Alerts";
-"settings_details.privacy.analytics.generic_description" = "Allows collection of basic information about your device and interactions with the app. No user identifiable data is shared, neither are your Home Assistant URLs or tokens. You must restart the app for changes to this setting to take effect.";
+"settings_details.privacy.analytics.generic_description" = "Allows collection of basic information about your device and interactions with the app. No user identifiable data is shared, neither are your Clesyde URLs or tokens. You must restart the app for changes to this setting to take effect.";
 "settings_details.privacy.analytics.generic_title" = "Analytics";
 "settings_details.privacy.crash_reporting.description" = "Allows for deeper tracking of crashes and other errors in the app, leading to faster fixes being published. No user identifiable information is sent, other than basic device information. You must restart the app for changes to this setting to take effect.";
 "settings_details.privacy.crash_reporting.sentry" = "This feature currently uses Sentry as the report destination.";
@@ -753,10 +753,10 @@ Home Assistant is free and open source home automation software with a focus on 
 "watch.labels.complication_text_areas.trailing.label" = "Trailing";
 "watch.labels.no_action" = "No actions configured. Configure actions on your phone to dismiss this message.";
 "watch.placeholder_complication_name" = "Placeholder";
-"widgets.actions.description" = "Perform Home Assistant actions.";
+"widgets.actions.description" = "Perform Clesyde actions.";
 "widgets.actions.not_configured" = "No Actions Configured";
 "widgets.actions.title" = "Actions";
-"widgets.open_page.description" = "Open a frontend page in Home Assistant.";
+"widgets.open_page.description" = "Open a frontend page in Clesyde.";
 "widgets.open_page.not_configured" = "No Pages Available";
 "widgets.open_page.title" = "Open Page";
 "yes_label" = "Yes";

@@ -8,9 +8,9 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "Reportování chyb na GitHubu";
 "about.help_localize.title" = "Pomozte lokalizovat aplikaci!";
-"about.home_assistant_on_facebook.title" = "Home Assistant na Facebooku";
-"about.home_assistant_on_twitter.title" = "Home Assistant na Twitteru";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "Clesyde na Facebooku";
+"about.home_assistant_on_twitter.title" = "Clesyde na Twitteru";
+"about.logo.app_title" = "Clesyde App";
 "about.logo.tagline" = "Probuďte svůj domov";
 "about.review.title" = "Napište recenzi";
 "about.title" = "O aplikaci";
@@ -90,11 +90,11 @@
 "extensions.notification_content.error.request.hls_unavailable" = "HLS stream nedostupný";
 "extensions.notification_content.error.request.other" = "Got non-200 status code (%li)";
 "ha_api.api_error.cant_build_url" = "Nelze sestavit adresu URL API";
-"ha_api.api_error.invalid_response" = "Obdržená neplatná odpověď od Home Assistant";
+"ha_api.api_error.invalid_response" = "Obdržená neplatná odpověď od Clesyde";
 "ha_api.api_error.manager_not_available" = "HA API Manager není k dispozici";
-"ha_api.api_error.mobile_app_component_not_loaded" = "Komponenta mobile_app není načtena. Přidejte jej do své konfigurace, restartujte Home Assistant a zkuste to znovu.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Vaše verze Home Assistant (%@) je příliš stará. Chcete-li aplikaci používat, musíte aktualizovat alespoň na verzi %@.";
-"ha_api.api_error.not_configured" = "API Home Assistant není nastaveno";
+"ha_api.api_error.mobile_app_component_not_loaded" = "Komponenta mobile_app není načtena. Přidejte jej do své konfigurace, restartujte Clesyde a zkuste to znovu.";
+"ha_api.api_error.must_upgrade_home_assistant" = "Vaše verze Clesyde (%@) je příliš stará. Chcete-li aplikaci používat, musíte aktualizovat alespoň na verzi %@.";
+"ha_api.api_error.not_configured" = "API Clesyde není nastaveno";
 "ha_api.api_error.unacceptable_status_code" = "Unacceptable status code %1$li.";
 "ha_api.api_error.unexpected_type" = "Received response with result of type %1$@ but expected type %2$@.";
 "ha_api.api_error.unknown" = "Nastala neznámá chyba.";
@@ -138,14 +138,14 @@
 "nfc.generic_tag_read" = "Přečíst štítek";
 "nfc.list.description" = "NFC Tagy zapsané pomocí aplikace vyvolají událost, jakmile k nim přiblížíte své zařízení.\
 \
-Tagy budou fungovat na jakémkoliv zařízení s Home Assistantem a hardwarovou podporou k jejich čtení.";
+Tagy budou fungovat na jakémkoliv zařízení s Clesydeem a hardwarovou podporou k jejich čtení.";
 "nfc.list.learn_more" = "Další informace";
 "nfc.list.read_tag" = "Číst štítek";
 "nfc.list.title" = "NFC štítky";
 "nfc.list.write_tag" = "Zapsat štítek";
 "nfc.not_available" = "NFC není na tomto zařízení k dispozici";
 "nfc.read.error.generic_failure" = "Nepodařilo se přečíst štítek";
-"nfc.read.error.not_home_assistant" = "NFC štítek neobsahuje štítek z Home Assistant";
+"nfc.read.error.not_home_assistant" = "NFC štítek neobsahuje štítek z Clesyde";
 "nfc.read.error.tag_invalid" = "NFC štítek je neplatný";
 "nfc.read.start_message" = "Držte %@ poblíž NFC štítku";
 "nfc.tag_read" = "Číst NFC štítek";
@@ -165,7 +165,7 @@ Tagy budou fungovat na jakémkoliv zařízení s Home Assistantem a hardwarovou 
 "notification_service.parser.camera.invalid_entity" = "entity_id provided was invalid.";
 "notification_service.parser.url.invalid_url" = "Zadaná adresa URL byla neplatná.";
 "notification_service.parser.url.no_url" = "Nebyla zadána žádná adresa URL.";
-"notifications_configurator.action.rows.authentication_required.footer" = "When the user selects an action with this option, the system prompts the user to unlock the device. After unlocking, Home Assistant will be notified of the selected action.";
+"notifications_configurator.action.rows.authentication_required.footer" = "When the user selects an action with this option, the system prompts the user to unlock the device. After unlocking, Clesyde will be notified of the selected action.";
 "notifications_configurator.action.rows.authentication_required.title" = "Vyžadováno ověření";
 "notifications_configurator.action.rows.destructive.footer" = "When enabled, the action button is displayed with special highlighting to indicate that it performs a destructive task.";
 "notifications_configurator.action.rows.destructive.title" = "Destruktivní";
@@ -215,7 +215,7 @@ Tagy budou fungovat na jakémkoliv zařízení s Home Assistantem a hardwarovou 
 "onboarding.manual_setup.connect" = "Připojit";
 "onboarding.manual_setup.couldnt_make_url.message" = "Hodnota „ %@ “ není platná adresa URL.";
 "onboarding.manual_setup.couldnt_make_url.title" = "Nelze vytvořit adresu URL.";
-"onboarding.manual_setup.description" = "The URL of your Home Assistant server. Make sure it includes the protocol and port.";
+"onboarding.manual_setup.description" = "The URL of your Clesyde server. Make sure it includes the protocol and port.";
 "onboarding.manual_setup.no_scheme.message" = "Zkusit se připojit přes http:// nebo https://?";
 "onboarding.manual_setup.no_scheme.title" = "URL zadáno bez schématu";
 "onboarding.manual_setup.title" = "Zadejte URL adresu";
@@ -224,7 +224,7 @@ Tagy budou fungovat na jakémkoliv zařízení s Home Assistantem a hardwarovou 
 "onboarding.permissions.change_later_note" = "You can change this permission later in Settings";
 "onboarding.permissions.focus.bullet.automations" = "Focus-based automations";
 "onboarding.permissions.focus.bullet.instant" = "Instant updates when status changes";
-"onboarding.permissions.focus.description" = "Allow whether you are in focus mode to be sent to Home Assistant";
+"onboarding.permissions.focus.description" = "Allow whether you are in focus mode to be sent to Clesyde";
 "onboarding.permissions.focus.grant_description" = "Allow focus permission to create sensors for your focus status, also known as do-not-disturb.";
 "onboarding.permissions.focus.title" = "Focus";
 "onboarding.permissions.location.bullet.automations" = "Presence-based automations";
@@ -236,23 +236,23 @@ Tagy budou fungovat na jakémkoliv zařízení s Home Assistantem a hardwarovou 
 "onboarding.permissions.motion.bullet.activity" = "Sensor for current activity type";
 "onboarding.permissions.motion.bullet.distance" = "Sensor for distance moved";
 "onboarding.permissions.motion.bullet.steps" = "Sensor for step counts";
-"onboarding.permissions.motion.description" = "Povolit odesílání údajů o pohybové aktivitě a krokoměru do aplikace Home Assistant";
+"onboarding.permissions.motion.description" = "Povolit odesílání údajů o pohybové aktivitě a krokoměru do aplikace Clesyde";
 "onboarding.permissions.motion.grant_description" = "Allow motion permission to create sensors for motion and pedometer data.";
 "onboarding.permissions.motion.title" = "Pohyb a krokoměr";
 "onboarding.permissions.notification.bullet.alert" = "Get alerted from notifications";
 "onboarding.permissions.notification.bullet.badge" = "Update app icon badge";
 "onboarding.permissions.notification.bullet.commands" = "Send commands to your device";
-"onboarding.permissions.notification.description" = "Povolit zasílání push notifikací z vašeho Home Assistant";
+"onboarding.permissions.notification.description" = "Povolit zasílání push notifikací z vašeho Clesyde";
 "onboarding.permissions.notification.grant_description" = "Allow notification permission to create a notify service for your device.";
 "onboarding.permissions.notification.title" = "Oznámení";
 "onboarding.scanning.discovered_announcement" = "Discovered: %@";
 "onboarding.scanning.manual" = "Enter Address Manually";
 "onboarding.scanning.manual_hint" = "Not finding your server?";
 "onboarding.scanning.title" = "Scanning for Servers";
-"onboarding.welcome.description" = "This app connects to your Home Assistant server and allows integrating data about you and your phone.\
+"onboarding.welcome.description" = "This app connects to your Clesyde server and allows integrating data about you and your phone.\
 \
-Home Assistant is free and open source home automation software with a focus on local control and privacy.";
-"onboarding.welcome.title" = "Welcome to Home Assistant %@!";
+Clesyde is free and open source home automation software with a focus on local control and privacy.";
+"onboarding.welcome.title" = "Welcome to Clesyde %@!";
 "open_label" = "Otevřít";
 "preview_output" = "Preview Output";
 "requires_version" = "Vyžaduje %@ nebo novější.";
@@ -273,7 +273,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings.connection_section.external_base_url.placeholder" = "https://homeassistant.mujdum.cz";
 "settings.connection_section.external_base_url.title" = "Externí URL adresa";
 "settings.connection_section.header" = "Připojení";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
+"settings.connection_section.home_assistant_cloud.title" = "Clesyde Cloud";
 "settings.connection_section.internal_base_url.placeholder" = "např. http://homeassistant.local:8123/";
 "settings.connection_section.internal_base_url.title" = "Interní URL adresa";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Přidat novou adresu hardware";
@@ -284,7 +284,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings.connection_section.internal_url_ssids.footer" = "Interní adresa URL bude použita při připojení k uvedeným SSID";
 "settings.connection_section.internal_url_ssids.header" = "SSID";
 "settings.connection_section.internal_url_ssids.placeholder" = "MyFunnyNetworkName";
-"settings.connection_section.local_push_description" = "Přímé připojení k serveru Home Assistant pro push oznámení na interních SSID.";
+"settings.connection_section.local_push_description" = "Přímé připojení k serveru Clesyde pro push oznámení na interních SSID.";
 "settings.connection_section.location_send_type.setting.exact" = "Přesná";
 "settings.connection_section.location_send_type.setting.never" = "Nikdy";
 "settings.connection_section.location_send_type.setting.zone_only" = "Pouze název zóny";
@@ -338,7 +338,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings.location_history.title" = "Historie polohy";
 "settings.navigation_bar.about_button.title" = "O aplikaci";
 "settings.navigation_bar.title" = "Nastavení";
-"settings.reset_section.reset_alert.message" = "Vaše nastavení bude resetováno a toto zařízení bude odhlášeno z nabízených oznámení a také bude odstraněno z konfigurace vašeho Home Assistant.";
+"settings.reset_section.reset_alert.message" = "Vaše nastavení bude resetováno a toto zařízení bude odhlášeno z nabízených oznámení a také bude odstraněno z konfigurace vašeho Clesyde.";
 "settings.reset_section.reset_alert.progress_message" = "Obnovení…";
 "settings.reset_section.reset_alert.title" = "Obnovit";
 "settings.reset_section.reset_row.title" = "Obnovit";
@@ -346,7 +346,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings.server_select.page_title" = "Server";
 "settings.server_select.title" = "Server";
 "settings.status_section.header" = "Stav";
-"settings.status_section.location_name_row.placeholder" = "Můj Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "Můj Clesyde";
 "settings.status_section.location_name_row.title" = "Jméno";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Verze";
@@ -372,7 +372,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings_details.general.app_icon.enum.electric_violet" = "Elektrická fialová";
 "settings_details.general.app_icon.enum.fire_orange" = "Ohnivě oranžová";
 "settings_details.general.app_icon.enum.green" = "Zelená";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant Blue";
+"settings_details.general.app_icon.enum.ha_blue" = "Clesyde Blue";
 "settings_details.general.app_icon.enum.old_beta" = "Stará beta";
 "settings_details.general.app_icon.enum.old_dev" = "Stará vývojová";
 "settings_details.general.app_icon.enum.old_release" = "Staré vydání";
@@ -505,7 +505,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings_details.notifications.title" = "Oznámení";
 "settings_details.privacy.alerts.description" = "Umožňuje kontrolu důležitých upozornění, jako jsou chyby zabezpečení.";
 "settings_details.privacy.alerts.title" = "Upozornění";
-"settings_details.privacy.analytics.generic_description" = "Umožňuje shromažďování základních informací o vašem zařízení a interakcích s aplikací. Nejsou sdílena žádná uživatelsky identifikovatelná data, včetně adres URL a tokenů Home Assistant. Změna tohoto nastavení se projeví až po restartování aplikace.";
+"settings_details.privacy.analytics.generic_description" = "Umožňuje shromažďování základních informací o vašem zařízení a interakcích s aplikací. Nejsou sdílena žádná uživatelsky identifikovatelná data, včetně adres URL a tokenů Clesyde. Změna tohoto nastavení se projeví až po restartování aplikace.";
 "settings_details.privacy.analytics.generic_title" = "Analýza";
 "settings_details.privacy.crash_reporting.description" = "Umožňuje hlubší sledování chyb a dalších chyb v aplikaci, což vede k rychlejšímu publikování oprav. Nejsou odesílány žádné uživatelsky identifikovatelné informace, kromě základních informací o zařízení. Změny tohoto nastavení se projeví až po restartování aplikace.";
 "settings_details.privacy.crash_reporting.sentry" = "Tato funkce aktuálně používá Sentry jako cíl sestavy.";
@@ -753,10 +753,10 @@ Home Assistant is free and open source home automation software with a focus on 
 "watch.labels.complication_text_areas.trailing.label" = "Trailing";
 "watch.labels.no_action" = "Nejsou nakonfigurovány žádné akce. Nakonfigurujte v telefonu akce pro nezobrazování této zprávy.";
 "watch.placeholder_complication_name" = "Placeholder";
-"widgets.actions.description" = "Provést akce Home Assistant";
+"widgets.actions.description" = "Provést akce Clesyde";
 "widgets.actions.not_configured" = "Akce nejsou nakonfigurovány";
 "widgets.actions.title" = "Akce";
-"widgets.open_page.description" = "Open a frontend page in Home Assistant.";
+"widgets.open_page.description" = "Open a frontend page in Clesyde.";
 "widgets.open_page.not_configured" = "Nejsou k dispozici žádné stránky";
 "widgets.open_page.title" = "Otevřít stránku";
 "yes_label" = "Ano";

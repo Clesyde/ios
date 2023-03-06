@@ -8,9 +8,9 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "Παρακολούθηση ζητημάτων GitHub";
 "about.help_localize.title" = "Βοηθήστε να μεταφραστεί η εφαρμογή!";
-"about.home_assistant_on_facebook.title" = "Το Home Assistant στο Facebook";
-"about.home_assistant_on_twitter.title" = "Το Home Assistant στο Twitter";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "Το Clesyde στο Facebook";
+"about.home_assistant_on_twitter.title" = "Το Clesyde στο Twitter";
+"about.logo.app_title" = "Clesyde App";
 "about.logo.tagline" = "Ζωντανέψτε το σπίτι σας";
 "about.review.title" = "Αφήστε μια κριτική";
 "about.title" = "Σχετικά";
@@ -90,10 +90,10 @@
 "extensions.notification_content.error.request.hls_unavailable" = "Η ροή HLS δεν είναι διαθέσιμη";
 "extensions.notification_content.error.request.other" = "Λήφθηκε κωδικός κατάστασης που δεν είναι 200 (%li)";
 "ha_api.api_error.cant_build_url" = "Δεν είναι δυνατή η δημιουργία URL API";
-"ha_api.api_error.invalid_response" = "Λάβαμε μη έγκυρη απάντηση από το Home Assistant";
+"ha_api.api_error.invalid_response" = "Λάβαμε μη έγκυρη απάντηση από το Clesyde";
 "ha_api.api_error.manager_not_available" = "Το HA API Manager δεν είναι διαθέσιμο";
-"ha_api.api_error.mobile_app_component_not_loaded" = "Το στοιχείο mobile_app δεν έχει φορτωθεί. Προσθέστε το στη διαμόρφωσή σας, κάντε επανεκκίνηση του Home Assistant και δοκιμάστε ξανά.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Η έκδοση του Home Assistant ( %@ ) είναι πολύ παλιά, πρέπει να κάνετε αναβάθμιση σε τουλάχιστον έκδοση %@ για να χρησιμοποιήσετε την εφαρμογή.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "Το στοιχείο mobile_app δεν έχει φορτωθεί. Προσθέστε το στη διαμόρφωσή σας, κάντε επανεκκίνηση του Clesyde και δοκιμάστε ξανά.";
+"ha_api.api_error.must_upgrade_home_assistant" = "Η έκδοση του Clesyde ( %@ ) είναι πολύ παλιά, πρέπει να κάνετε αναβάθμιση σε τουλάχιστον έκδοση %@ για να χρησιμοποιήσετε την εφαρμογή.";
 "ha_api.api_error.not_configured" = "Το HA API δεν έχει διαμορφωθεί";
 "ha_api.api_error.unacceptable_status_code" = "Μη αποδεκτός κωδικός κατάστασης %1$li.";
 "ha_api.api_error.unexpected_type" = "Λήψη απόκρισης με αποτέλεσμα τύπου %1$@ αλλά αναμενόμενο τύπο %2$@.";
@@ -138,14 +138,14 @@
 "nfc.generic_tag_read" = "Ανάγνωση ετικέτας";
 "nfc.list.description" = "Οι ετικέτες NFC που γράφονται από την εφαρμογή θα εμφανίζουν μια ειδοποίηση όταν φέρετε τη συσκευή σας κοντά τους. Η ενεργοποίηση της ειδοποίησης θα ξεκινήσει την εφαρμογή και θα ενεργοποιήσει ένα συμβάν.\
 \
- Οι ετικέτες θα λειτουργούν σε οποιαδήποτε συσκευή με εγκατεστημένο το Home Assistant που διαθέτει υποστήριξη υλικού για την ανάγνωσή τους.";
+ Οι ετικέτες θα λειτουργούν σε οποιαδήποτε συσκευή με εγκατεστημένο το Clesyde που διαθέτει υποστήριξη υλικού για την ανάγνωσή τους.";
 "nfc.list.learn_more" = "Μάθε περισσότερα";
 "nfc.list.read_tag" = "Ανάγνωση ετικέτας";
 "nfc.list.title" = "Ετικέτες NFC";
 "nfc.list.write_tag" = "Εγγραφή ετικέτας";
 "nfc.not_available" = "Το NFC δεν είναι διαθέσιμο σε αυτήν τη συσκευή";
 "nfc.read.error.generic_failure" = "Αποτυχία ανάγνωσης ετικέτας";
-"nfc.read.error.not_home_assistant" = "Η ετικέτα NFC δεν είναι ετικέτα του Home Assistant";
+"nfc.read.error.not_home_assistant" = "Η ετικέτα NFC δεν είναι ετικέτα του Clesyde";
 "nfc.read.error.tag_invalid" = "Η ετικέτα NFC δεν είναι έγκυρη";
 "nfc.read.start_message" = "Κρατήστε το %@ κοντά σε μια ετικέτα NFC";
 "nfc.tag_read" = "Ανάγνωση ετικέτας NFC";
@@ -165,7 +165,7 @@
 "notification_service.parser.camera.invalid_entity" = "Το  entity_id που δόθηκε δεν ήταν έγκυρο.";
 "notification_service.parser.url.invalid_url" = "Η διεύθυνση URL που δόθηκε δεν ήταν έγκυρη.";
 "notification_service.parser.url.no_url" = "Δεν δόθηκε διεύθυνση URL.";
-"notifications_configurator.action.rows.authentication_required.footer" = "Όταν ο χρήστης επιλέξει μια ενέργεια με αυτήν την επιλογή, το σύστημα ζητά από το χρήστη να ξεκλειδώσει τη συσκευή. Μετά το ξεκλείδωμα, το Home Assistant θα ειδοποιηθεί για την επιλεγμένη ενέργεια.";
+"notifications_configurator.action.rows.authentication_required.footer" = "Όταν ο χρήστης επιλέξει μια ενέργεια με αυτήν την επιλογή, το σύστημα ζητά από το χρήστη να ξεκλειδώσει τη συσκευή. Μετά το ξεκλείδωμα, το Clesyde θα ειδοποιηθεί για την επιλεγμένη ενέργεια.";
 "notifications_configurator.action.rows.authentication_required.title" = "Απαιτείται έλεγχος ταυτότητας";
 "notifications_configurator.action.rows.destructive.footer" = "Όταν ενεργοποιηθεί, το κουμπί ενέργειας εμφανίζεται με ειδική επισήμανση που υποδεικνύει ότι εκτελεί μια καταστροφική εργασία.";
 "notifications_configurator.action.rows.destructive.title" = "Καταστροφικό";
@@ -215,7 +215,7 @@
 "onboarding.manual_setup.connect" = "Σύνδεση";
 "onboarding.manual_setup.couldnt_make_url.message" = "Η τιμή '%@' δεν ήταν έγκυρη διεύθυνση URL.";
 "onboarding.manual_setup.couldnt_make_url.title" = "Δεν ήταν δυνατή η δημιουργία διεύθυνσης URL";
-"onboarding.manual_setup.description" = "Η διεύθυνση URL του διακομιστή Home Assistant. Βεβαιωθείτε ότι περιλαμβάνει το πρωτόκολλο και τη θύρα.";
+"onboarding.manual_setup.description" = "Η διεύθυνση URL του διακομιστή Clesyde. Βεβαιωθείτε ότι περιλαμβάνει το πρωτόκολλο και τη θύρα.";
 "onboarding.manual_setup.no_scheme.message" = "Θα πρέπει να προσπαθήσουμε να συνδεθούμε χρησιμοποιώντας http:// ή https://;";
 "onboarding.manual_setup.no_scheme.title" = "Η διεύθυνση URL καταχωρήθηκε χωρίς σχήμα";
 "onboarding.manual_setup.title" = "Εισαγωγή διεύθυνσης URL";
@@ -224,7 +224,7 @@
 "onboarding.permissions.change_later_note" = "Μπορείτε να αλλάξετε αυτό το δικαίωμα αργότερα στις Ρυθμίσεις";
 "onboarding.permissions.focus.bullet.automations" = "Αυτοματισμοί βασισμένοι στην εστίαση";
 "onboarding.permissions.focus.bullet.instant" = "Άμεσες ενημερώσεις όταν αλλάζει η κατάσταση";
-"onboarding.permissions.focus.description" = "Επιτρέψτε εάν είστε σε λειτουργία εστίασης για αποστολή στο Home Assistant";
+"onboarding.permissions.focus.description" = "Επιτρέψτε εάν είστε σε λειτουργία εστίασης για αποστολή στο Clesyde";
 "onboarding.permissions.focus.grant_description" = "Επιτρέψτε την άδεια εστίασης για να δημιουργήσετε αισθητήρες για την κατάσταση εστίασης, γνωστή και ως \"μην ενοχλείτε\".";
 "onboarding.permissions.focus.title" = "Εστίαση";
 "onboarding.permissions.location.bullet.automations" = "Αυτοματισμοί βάσει παρουσίας";
@@ -236,23 +236,23 @@
 "onboarding.permissions.motion.bullet.activity" = "Αισθητήρας για τον τρέχοντα τύπο δραστηριότητας";
 "onboarding.permissions.motion.bullet.distance" = "Αισθητήρας για την απόσταση που διανύθηκε";
 "onboarding.permissions.motion.bullet.steps" = "Αισθητήρας για μετρήσεις βημάτων";
-"onboarding.permissions.motion.description" = "Επιτρέψτε την αποστολή δεδομένων δραστηριότητας κίνησης και βηματόμετρου στο Home Assistant";
+"onboarding.permissions.motion.description" = "Επιτρέψτε την αποστολή δεδομένων δραστηριότητας κίνησης και βηματόμετρου στο Clesyde";
 "onboarding.permissions.motion.grant_description" = "Να επιτρέπεται η άδεια κίνησης για τη δημιουργία αισθητήρων για δεδομένα κίνησης και βηματόμετρου.";
 "onboarding.permissions.motion.title" = "Κίνηση & Βηματομετρητής";
 "onboarding.permissions.notification.bullet.alert" = "Ειδοποιηθείτε από ειδοποιήσεις";
 "onboarding.permissions.notification.bullet.badge" = "Ενημέρωση εμβλήματος εικονιδίου εφαρμογής";
 "onboarding.permissions.notification.bullet.commands" = "Αποστολή εντολών στη συσκευή σας";
-"onboarding.permissions.notification.description" = "Επιτρέψτε την αποστολή ειδοποιήσεων push από το Home Assistant σας";
+"onboarding.permissions.notification.description" = "Επιτρέψτε την αποστολή ειδοποιήσεων push από το Clesyde σας";
 "onboarding.permissions.notification.grant_description" = "Επιτρέψτε το δικαίωμα ειδοποίησης για να δημιουργήσετε μια υπηρεσία ειδοποίησης για τη συσκευή σας.";
 "onboarding.permissions.notification.title" = "Ειδοποιήσεις";
 "onboarding.scanning.discovered_announcement" = "Ανακαλύφθηκε: %@";
 "onboarding.scanning.manual" = "Εισαγωγή διεύθυνσης χειροκίνητα";
 "onboarding.scanning.manual_hint" = "Δεν βρίσκετε τον διακομιστή σας;";
 "onboarding.scanning.title" = "Σάρωση για διακομιστές";
-"onboarding.welcome.description" = "Αυτή η εφαρμογή συνδέεται με τον διακομιστή Home Assistant και επιτρέπει την ενσωμάτωση δεδομένων σχετικά με εσάς και το τηλέφωνό σας. \
+"onboarding.welcome.description" = "Αυτή η εφαρμογή συνδέεται με τον διακομιστή Clesyde και επιτρέπει την ενσωμάτωση δεδομένων σχετικά με εσάς και το τηλέφωνό σας. \
 \
- Το Home Assistant είναι δωρεάν και ανοιχτού κώδικα λογισμικό αυτοματισμού σπιτιού με έμφαση στον τοπικό έλεγχο και την ιδιωτικότητα.";
-"onboarding.welcome.title" = "Καλώς ορίσατε στο Home Assistant %@!";
+ Το Clesyde είναι δωρεάν και ανοιχτού κώδικα λογισμικό αυτοματισμού σπιτιού με έμφαση στον τοπικό έλεγχο και την ιδιωτικότητα.";
+"onboarding.welcome.title" = "Καλώς ορίσατε στο Clesyde %@!";
 "open_label" = "Άνοιγμα";
 "preview_output" = "Έξοδος προεπισκόπησης";
 "requires_version" = "Απαιτεί %@ ή μεταγενέστερη έκδοση.";
@@ -273,7 +273,7 @@
 "settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
 "settings.connection_section.external_base_url.title" = "Εξωτερική διεύθυνση URL";
 "settings.connection_section.header" = "Σύνδεση";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
+"settings.connection_section.home_assistant_cloud.title" = "Clesyde Cloud";
 "settings.connection_section.internal_base_url.placeholder" = "π.χ. http://homeassistant.local:8123";
 "settings.connection_section.internal_base_url.title" = "Εσωτερική διεύθυνση URL";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Προσθήκη νέας διεύθυνσης υλικού";
@@ -284,7 +284,7 @@
 "settings.connection_section.internal_url_ssids.footer" = "Η εσωτερική διεύθυνση URL θα χρησιμοποιηθεί όταν συνδέεται με καταχωρημένα SSID";
 "settings.connection_section.internal_url_ssids.header" = "SSIDs";
 "settings.connection_section.internal_url_ssids.placeholder" = "MyFunnyNetworkName";
-"settings.connection_section.local_push_description" = "Συνδεθείτε απευθείας στο διακομιστή Home Assistant για ειδοποιήσεις push όταν βρίσκεστε σε εσωτερικά SSID.";
+"settings.connection_section.local_push_description" = "Συνδεθείτε απευθείας στο διακομιστή Clesyde για ειδοποιήσεις push όταν βρίσκεστε σε εσωτερικά SSID.";
 "settings.connection_section.location_send_type.setting.exact" = "Ακριβής";
 "settings.connection_section.location_send_type.setting.never" = "Ποτέ";
 "settings.connection_section.location_send_type.setting.zone_only" = "Μόνο όνομα ζώνης";
@@ -338,7 +338,7 @@
 "settings.location_history.title" = "Ιστορικό Τοποθεσίας";
 "settings.navigation_bar.about_button.title" = "Σχετικά";
 "settings.navigation_bar.title" = "Ρυθμίσεις";
-"settings.reset_section.reset_alert.message" = "Οι ρυθμίσεις σας θα επαναρυθμιστούν και αυτή η συσκευή δεν θα καταχωρηθεί από τις ειδοποιήσεις push, καθώς και θα καταργηθεί από τη ρύθμιση παραμέτρων του Home Assistant.";
+"settings.reset_section.reset_alert.message" = "Οι ρυθμίσεις σας θα επαναρυθμιστούν και αυτή η συσκευή δεν θα καταχωρηθεί από τις ειδοποιήσεις push, καθώς και θα καταργηθεί από τη ρύθμιση παραμέτρων του Clesyde.";
 "settings.reset_section.reset_alert.progress_message" = "Επαναφορά…";
 "settings.reset_section.reset_alert.title" = "Επαναφορά";
 "settings.reset_section.reset_row.title" = "Επαναφορά";
@@ -346,7 +346,7 @@
 "settings.server_select.page_title" = "Διακομιστής";
 "settings.server_select.title" = "Διακομιστής";
 "settings.status_section.header" = "Κατάσταση";
-"settings.status_section.location_name_row.placeholder" = "Το Home Assistant μου";
+"settings.status_section.location_name_row.placeholder" = "Το Clesyde μου";
 "settings.status_section.location_name_row.title" = "Όνομα";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Έκδοση";
@@ -372,7 +372,7 @@
 "settings_details.general.app_icon.enum.electric_violet" = "Ηλεκτρικό βιολετί";
 "settings_details.general.app_icon.enum.fire_orange" = "Πορτοκαλί της φωτιάς";
 "settings_details.general.app_icon.enum.green" = "Πράσινο";
-"settings_details.general.app_icon.enum.ha_blue" = "Μπλε Home Assistant";
+"settings_details.general.app_icon.enum.ha_blue" = "Μπλε Clesyde";
 "settings_details.general.app_icon.enum.old_beta" = "Παλιά beta";
 "settings_details.general.app_icon.enum.old_dev" = "Παλιά ανάπτυξη";
 "settings_details.general.app_icon.enum.old_release" = "Παλιά έκδοση";
@@ -505,7 +505,7 @@
 "settings_details.notifications.title" = "Ειδοποιήσεις";
 "settings_details.privacy.alerts.description" = "Επιτρέπει τον έλεγχο σημαντικών ειδοποιήσεων όπως τρωτά σημεία ασφαλείας.";
 "settings_details.privacy.alerts.title" = "Ειδοποιήσεις";
-"settings_details.privacy.analytics.generic_description" = "Επιτρέπει τη συλλογή βασικών πληροφοριών σχετικά με τη συσκευή σας και τις αλληλεπιδράσεις με την εφαρμογή. Δεν κοινοποιούνται δεδομένα που να είναι αναγνωρίσιμα από το χρήστη, συμπεριλαμβανομένων των διευθύνσεων URL και των διακριτικών του Home Assistant. Πρέπει να επανεκκινήσετε την εφαρμογή για να εφαρμοστούν οι αλλαγές σε αυτήν τη ρύθμιση.";
+"settings_details.privacy.analytics.generic_description" = "Επιτρέπει τη συλλογή βασικών πληροφοριών σχετικά με τη συσκευή σας και τις αλληλεπιδράσεις με την εφαρμογή. Δεν κοινοποιούνται δεδομένα που να είναι αναγνωρίσιμα από το χρήστη, συμπεριλαμβανομένων των διευθύνσεων URL και των διακριτικών του Clesyde. Πρέπει να επανεκκινήσετε την εφαρμογή για να εφαρμοστούν οι αλλαγές σε αυτήν τη ρύθμιση.";
 "settings_details.privacy.analytics.generic_title" = "Ανάλυση";
 "settings_details.privacy.crash_reporting.description" = "Επιτρέπει βαθύτερη παρακολούθηση των σφαλμάτων και άλλων σφαλμάτων στην εφαρμογή, με αποτέλεσμα τη δημοσίευση ταχύτερων επιδιορθώσεων. Δεν αποστέλλονται πληροφορίες που να είναι αναγνωρίσιμες από το χρήστη, εκτός από τις βασικές πληροφορίες συσκευής. Πρέπει να επανεκκινήσετε την εφαρμογή για να εφαρμοστούν οι αλλαγές σε αυτήν τη ρύθμιση.";
 "settings_details.privacy.crash_reporting.sentry" = "Αυτή η δυνατότητα χρησιμοποιεί αυτήν τη στιγμή το Sentry ως προορισμό αναφοράς.";
@@ -753,10 +753,10 @@
 "watch.labels.complication_text_areas.trailing.label" = "Ακολουθία";
 "watch.labels.no_action" = "Δεν έχουν διαμορφωθεί ενέργειες. Διαμορφώστε τις ενέργειες στο τηλέφωνό σας για να παραβλέψετε αυτό το μήνυμα.";
 "watch.placeholder_complication_name" = "Σύμβολο κράτησης θέσης";
-"widgets.actions.description" = "Εκτελέστε ενέργειες Home Assistant.";
+"widgets.actions.description" = "Εκτελέστε ενέργειες Clesyde.";
 "widgets.actions.not_configured" = "Δεν έχουν ρυθμιστεί ενέργειες";
 "widgets.actions.title" = "Ενέργειες";
-"widgets.open_page.description" = "Ανοίξτε μια αρχική σελίδα στο Home Assistant.";
+"widgets.open_page.description" = "Ανοίξτε μια αρχική σελίδα στο Clesyde.";
 "widgets.open_page.not_configured" = "Δεν υπάρχουν διαθέσιμες σελίδες";
 "widgets.open_page.title" = "Άνοιγμα σελίδας";
 "yes_label" = "Ναι";
