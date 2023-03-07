@@ -101,7 +101,7 @@ public struct ServerAlert: Codable, Equatable {
 }
 
 public class ServerAlerter {
-    private var apiUrl: URL { URL(string: "https://alerts.home-assistant.io/mobile.json")! }
+    private var apiUrl: URL { URL(string: "https://alerts.clesyde.lu/mobile.json")! }
 
     internal enum AlerterError: LocalizedError {
         case privacyDisabled

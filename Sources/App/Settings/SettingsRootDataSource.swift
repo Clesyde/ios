@@ -153,7 +153,7 @@ enum SettingsRootDataSource {
             $0.accessoryIcon = .openInNewIcon
             $0.hidden = .isCatalyst
             $0.onCellSelection { cell, row in
-                openURLInBrowser(URL(string: "https://companion.home-assistant.io")!, cell.formViewController())
+                openURLInBrowser(URL(string: "https://clesyde.lu")!, cell.formViewController())
                 row.deselect(animated: true)
             }
         }

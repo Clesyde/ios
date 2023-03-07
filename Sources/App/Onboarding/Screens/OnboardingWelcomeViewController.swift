@@ -90,7 +90,7 @@ class OnboardingWelcomeViewController: UIViewController, OnboardingViewControlle
 
     @objc private func learnMoreTapped(_ sender: UIButton) {
         present(
-            SFSafariViewController(url: .init(string: "http://www.home-assistant.io")!),
+            SFSafariViewController(url: .init(string: "http://www.clesyde.lu")!),
             animated: true,
             completion: nil
         )

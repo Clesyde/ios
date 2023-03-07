@@ -24,7 +24,7 @@ class NFCListViewController: HAFormViewController {
             }
 
             <<< LearnMoreButtonRow {
-                $0.value = URL(string: "https://companion.home-assistant.io/app/ios/nfc")!
+                $0.value = URL(string: "https://clesyde.lu")!
             }
 
         if Current.tags.isNFCAvailable {

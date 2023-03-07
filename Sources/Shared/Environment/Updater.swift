@@ -56,7 +56,7 @@ public struct AvailableUpdate: Codable, Comparable {
 }
 
 public class Updater {
-    private var apiUrl: URL { URL(string: "https://api.github.com/repos/home-assistant/ios/releases?per_page=25")! }
+    private var apiUrl: URL { URL(string: "https://api.github.com/repos/clesyde/ios/releases?per_page=25")! }
 
     internal enum UpdateError: LocalizedError {
         case unsupportedPlatform

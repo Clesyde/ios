@@ -2,7 +2,7 @@ import Vapor
 
 func routes(_ app: Application) throws {
     app.get { req in
-        req.redirect(to: "https://companion.home-assistant.io")
+        req.redirect(to: "https://mobile.clesyde.lu")
     }
 
     app.group("push") { push in

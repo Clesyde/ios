@@ -94,7 +94,7 @@ class iOSTagManager: TagManager {
     private static func url(for identifier: String) -> URL {
         var components = URLComponents()
         components.scheme = "https"
-        components.host = "www.home-assistant.io"
+        components.host = "www.clesyde.lu"
         components.path = "/tag/" + identifier
         return components.url!
     }
