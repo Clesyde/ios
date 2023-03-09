@@ -270,11 +270,11 @@ Tags will work on any device with Clesyde installed which has hardware support t
 "settings.connection_section.delete_server.title" = "സെർവർ ഇല്ലാതാക്കുക";
 "settings.connection_section.details" = "Details";
 "settings.connection_section.errors.cannot_remove_last_url" = "You cannot remove only available URL.";
-"settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
+"settings.connection_section.external_base_url.placeholder" = "https://clesyde.myhouse.com";
 "settings.connection_section.external_base_url.title" = "External URL";
 "settings.connection_section.header" = "Connection";
 "settings.connection_section.home_assistant_cloud.title" = "Clesyde Cloud";
-"settings.connection_section.internal_base_url.placeholder" = "e.g. http://homeassistant.local:8123/";
+"settings.connection_section.internal_base_url.placeholder" = "e.g. http://clesyde.local:8123/";
 "settings.connection_section.internal_base_url.title" = "Internal URL";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Add New Hardware Address";
 "settings.connection_section.internal_url_hardware_addresses.footer" = "Internal URL will be used when the primary network interface has a MAC address matching one of these hardware addresses.";

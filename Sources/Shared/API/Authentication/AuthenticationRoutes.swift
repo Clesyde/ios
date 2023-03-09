@@ -29,7 +29,7 @@ enum AuthenticationRoute {
     // MARK: - Private helpers
 
     private var clientID: String {
-        var clientID = "https://clesyde.lu/iOS"
+        var clientID = "https://home-assistant.io/iOS"
 
         if Current.appConfiguration == .Debug {
             clientID = "https://home-assistant.io/iOS/dev-auth"

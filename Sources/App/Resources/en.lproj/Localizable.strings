@@ -81,7 +81,7 @@
 "error_label" = "Error";
 "extensions.map.location.new" = "New Location";
 "extensions.map.location.original" = "Original Location";
-"extensions.map.payload_missing_homeassistant.message" = "Payload didn't contain a homeassistant dictionary!";
+"extensions.map.payload_missing_homeassistant.message" = "Payload didn't contain a clesyde dictionary!";
 "extensions.map.value_missing_or_uncastable.latitude.message" = "Latitude wasn't found or couldn't be casted to string!";
 "extensions.map.value_missing_or_uncastable.longitude.message" = "Longitude wasn't found or couldn't be casted to string!";
 "extensions.notification_content.error.no_entity_id" = "No entity_id found in payload!";
@@ -270,11 +270,11 @@ Clesyde is free and open source home automation software with a focus on local c
 "settings.connection_section.delete_server.title" = "Delete Server";
 "settings.connection_section.details" = "Details";
 "settings.connection_section.errors.cannot_remove_last_url" = "You cannot remove only available URL.";
-"settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
+"settings.connection_section.external_base_url.placeholder" = "https://clesyde.myhouse.com";
 "settings.connection_section.external_base_url.title" = "External URL";
 "settings.connection_section.header" = "Connection";
 "settings.connection_section.home_assistant_cloud.title" = "Clesyde Cloud";
-"settings.connection_section.internal_base_url.placeholder" = "e.g. http://homeassistant.local:8123/";
+"settings.connection_section.internal_base_url.placeholder" = "e.g. http://clesyde.local:8123/";
 "settings.connection_section.internal_base_url.title" = "Internal URL";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Add New Hardware Address";
 "settings.connection_section.internal_url_hardware_addresses.footer" = "Internal URL will be used when the primary network interface has a MAC address matching one of these hardware addresses.";
@@ -556,7 +556,7 @@ Clesyde is free and open source home automation software with a focus on local c
 "url_handler.send_location.success.title" = "Sent location";
 "url_handler.x_callback_url.error.eventNameMissing" = "eventName must be defined";
 "url_handler.x_callback_url.error.general" = "A general error occurred";
-"url_handler.x_callback_url.error.serviceMissing" = "service (e.g. homeassistant.turn_on) must be defined";
+"url_handler.x_callback_url.error.serviceMissing" = "service (e.g. clesyde.turn_on) must be defined";
 "url_handler.x_callback_url.error.templateMissing" = "A renderable template must be defined";
 "username_label" = "Username";
 "watch.configurator.delete.button" = "Delete Complication";

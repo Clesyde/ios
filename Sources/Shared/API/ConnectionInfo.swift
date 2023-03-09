@@ -195,7 +195,7 @@ public struct ConnectionInfo: Codable, Equatable {
                 url = internalURL
             } else {
                 activeURLType = .internal
-                url = URL(string: "http://homeassistant.local:8123")!
+                url = URL(string: "http://clesyde.local:8123")!
             }
         }
 
